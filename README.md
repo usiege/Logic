@@ -4,8 +4,13 @@ iOS OpenGL
 
 ### 2020-07-08
 
-- [OpenGL深度缓冲区、裁剪和混合](https://www.jianshu.com/p/f8e3a6443b20)
+- [004-渲染技巧](./视觉/004-渲染技巧)
+- [甜甜圈](./视觉/code/004-torus.cpp)
+- [正表面剔除](./视觉/code/004-cullface.cpp)
+- [图元](./视觉/code/004-primitive.cpp)
+- [点](./视觉/code/004-point.cpp)
 
+- [OpenGL深度缓冲区、裁剪和混合](https://www.jianshu.com/p/f8e3a6443b20)
 
 ### 2020-07-06
 
@@ -16,8 +21,8 @@ iOS OpenGL
 
 ### 2020-07-03
 
-- [002--正方形键盘控制(坐标更新)](./视觉/code/002--正方形键盘控制\(坐标更新\))
-- [004--正方形键盘控制(矩阵)](./视觉/code/004--正方形键盘控制\(矩阵\))
+- [002--正方形键盘控制(坐标更新)](./视觉/code/002-updateframe.cpp))
+- [004--正方形键盘控制(矩阵)](./视觉/code/003-keymove.cpp))
 
 - [图像渲染原理](http://chuquan.me/2018/09/25/ios-graphics-render-principle/)
 
