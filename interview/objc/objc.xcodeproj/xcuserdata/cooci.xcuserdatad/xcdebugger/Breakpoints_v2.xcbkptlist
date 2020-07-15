@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/objc-runtime-new.mm"
+            timestampString = "571931593.20268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6544"
+            endingLineNumber = "6544"
+            landmarkName = "_class_createInstanceFromZone(Class cls, size_t extraBytes, void *zone, bool cxxConstruct = true, size_t *outAllocatedSize = nil)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "class_createInstance"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cooci/Desktop/VIP/%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95%E7%89%B9%E8%AE%AD%E7%8F%AD/%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95%E7%89%B9%E8%AE%AD%E7%8F%AD%E7%AC%AC1%E5%A4%A9/04--%E8%B5%84%E6%96%99/objc4-750%E5%8F%AF%E7%BC%96%E8%AF%91/runtime/objc-runtime-new.mm"
+                  timestampString = "571931603.781178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6544"
+                  endingLineNumber = "6544"
+                  offsetFromSymbolStart = "453">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_object_copyFromZone(objc_object*, unsigned long, void*)"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cooci/Desktop/VIP/%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95%E7%89%B9%E8%AE%AD%E7%8F%AD/%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95%E7%89%B9%E8%AE%AD%E7%8F%AD%E7%AC%AC1%E5%A4%A9/04--%E8%B5%84%E6%96%99/objc4-750%E5%8F%AF%E7%BC%96%E8%AF%91/runtime/objc-runtime-new.mm"
+                  timestampString = "571931603.782726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6544"
+                  endingLineNumber = "6544"
+                  offsetFromSymbolStart = "538">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "class_createInstanceFromZone"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cooci/Desktop/VIP/%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95%E7%89%B9%E8%AE%AD%E7%8F%AD/%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95%E7%89%B9%E8%AE%AD%E7%8F%AD%E7%AC%AC1%E5%A4%A9/04--%E8%B5%84%E6%96%99/objc4-750%E5%8F%AF%E7%BC%96%E8%AF%91/runtime/objc-runtime-new.mm"
+                  timestampString = "571931603.784372"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6544"
+                  endingLineNumber = "6544"
+                  offsetFromSymbolStart = "457">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LGTest/main.m"
+            timestampString = "571931593.202792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "main"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

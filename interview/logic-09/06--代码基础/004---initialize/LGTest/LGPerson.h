@@ -1,0 +1,16 @@
+//
+//  LGPerson.h
+//  LGTest
+//
+//  Created by cooci on 2019/2/8.
+//
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface LGPerson : NSObject
+
+@end
+
+NS_ASSUME_NONNULL_END

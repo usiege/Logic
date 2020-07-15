@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 
     glfwSetFramebufferSizeCallback(window, reshape);
     glfwSetWindowRefreshCallback(window, display);
-
+    
     glfwMakeContextCurrent(window);
 
     if (gl3wInit()) {
