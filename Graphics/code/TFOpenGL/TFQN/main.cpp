@@ -77,8 +77,6 @@ static void reshape(GLFWwindow *window, int w, int h)
         0.0f, 0.5f, 0.0f
     };
     
-    
-    
 }
 
 static void display(GLFWwindow *window)

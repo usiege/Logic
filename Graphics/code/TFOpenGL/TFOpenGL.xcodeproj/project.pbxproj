@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62D0A88724BF46BB00DD1507 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62D0A88624BF46BB00DD1507 /* main.cpp */; };
+		62D0A88D24BF474400DD1507 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D0A88C24BF474400DD1507 /* libGLEW.a */; };
+		62D0A88E24BF476200DD1507 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC9A724BCAC0D0064C982 /* libglfw.3.3.dylib */; };
+		62D0A88F24BF477B00DD1507 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67224B8AEB20064C982 /* OpenGL.framework */; };
 		62EDC66B24B8AE520064C982 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC66A24B8AE520064C982 /* main.cpp */; };
 		62EDC67324B8AEB20064C982 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67224B8AEB20064C982 /* OpenGL.framework */; };
 		62EDC67724B8AED20064C982 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67624B8AED20064C982 /* libGLEW.2.1.0.dylib */; };
-		62EDC67924B8AEE60064C982 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EDC67824B8AEE60064C982 /* libglfw.3.3.dylib */; };
 		62EDC68524BB84A00064C982 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC68424BB84A00064C982 /* main.cpp */; };
 		62EDC69324BB84FA0064C982 /* gl3w.c in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC69124BB84CC0064C982 /* gl3w.c */; };
 		62EDC9A624BCAADC0064C982 /* gl3w.c in Sources */ = {isa = PBXBuildFile; fileRef = 62EDC69124BB84CC0064C982 /* gl3w.c */; };
@@ -18,6 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		62D0A88224BF46BB00DD1507 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		62EDC66524B8AE510064C982 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,12 +52,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62D0A88424BF46BB00DD1507 /* TF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TF; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D0A88624BF46BB00DD1507 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		62D0A88C24BF474400DD1507 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.a; sourceTree = "<group>"; };
 		62EDC66724B8AE510064C982 /* TFOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TFOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EDC66A24B8AE520064C982 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62EDC67224B8AEB20064C982 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		62EDC67424B8AEB80064C982 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		62EDC67624B8AED20064C982 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
-		62EDC67824B8AEE60064C982 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../usr/local/Cellar/glfw/3.3/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		62EDC68224BB84A00064C982 /* TFQN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TFQN; sourceTree = BUILT_PRODUCTS_DIR; };
 		62EDC68424BB84A00064C982 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62EDC68C24BB84CC0064C982 /* gl3w.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl3w.h; sourceTree = "<group>"; };
@@ -56,11 +70,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		62D0A88124BF46BB00DD1507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D0A88F24BF477B00DD1507 /* OpenGL.framework in Frameworks */,
+				62D0A88E24BF476200DD1507 /* libglfw.3.3.dylib in Frameworks */,
+				62D0A88D24BF474400DD1507 /* libGLEW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62EDC66424B8AE510064C982 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62EDC67924B8AEE60064C982 /* libglfw.3.3.dylib in Frameworks */,
 				62EDC67724B8AED20064C982 /* libGLEW.2.1.0.dylib in Frameworks */,
 				62EDC67324B8AEB20064C982 /* OpenGL.framework in Frameworks */,
 			);
@@ -77,12 +100,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62D0A88524BF46BB00DD1507 /* TF */ = {
+			isa = PBXGroup;
+			children = (
+				62D0A88624BF46BB00DD1507 /* main.cpp */,
+			);
+			path = TF;
+			sourceTree = "<group>";
+		};
 		62EDC65E24B8AE510064C982 = {
 			isa = PBXGroup;
 			children = (
 				62EDC68924BB84CC0064C982 /* gl3w */,
 				62EDC66924B8AE510064C982 /* TFOpenGL */,
 				62EDC68324BB84A00064C982 /* TFQN */,
+				62D0A88524BF46BB00DD1507 /* TF */,
 				62EDC66824B8AE510064C982 /* Products */,
 				62EDC67124B8AEB20064C982 /* Frameworks */,
 			);
@@ -93,6 +125,7 @@
 			children = (
 				62EDC66724B8AE510064C982 /* TFOpenGL */,
 				62EDC68224BB84A00064C982 /* TFQN */,
+				62D0A88424BF46BB00DD1507 /* TF */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,7 +141,7 @@
 		62EDC67124B8AEB20064C982 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				62EDC67824B8AEE60064C982 /* libglfw.3.3.dylib */,
+				62D0A88C24BF474400DD1507 /* libGLEW.a */,
 				62EDC9A724BCAC0D0064C982 /* libglfw.3.3.dylib */,
 				62EDC67624B8AED20064C982 /* libGLEW.2.1.0.dylib */,
 				62EDC67424B8AEB80064C982 /* GLKit.framework */,
@@ -171,6 +204,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		62D0A88324BF46BB00DD1507 /* TF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D0A88A24BF46BB00DD1507 /* Build configuration list for PBXNativeTarget "TF" */;
+			buildPhases = (
+				62D0A88024BF46BB00DD1507 /* Sources */,
+				62D0A88124BF46BB00DD1507 /* Frameworks */,
+				62D0A88224BF46BB00DD1507 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TF;
+			productName = TF;
+			productReference = 62D0A88424BF46BB00DD1507 /* TF */;
+			productType = "com.apple.product-type.tool";
+		};
 		62EDC66624B8AE510064C982 /* TFOpenGL */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62EDC66E24B8AE520064C982 /* Build configuration list for PBXNativeTarget "TFOpenGL" */;
@@ -214,6 +264,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = charles;
 				TargetAttributes = {
+					62D0A88324BF46BB00DD1507 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					62EDC66624B8AE510064C982 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -237,11 +290,20 @@
 			targets = (
 				62EDC66624B8AE510064C982 /* TFOpenGL */,
 				62EDC68124BB84A00064C982 /* TFQN */,
+				62D0A88324BF46BB00DD1507 /* TF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		62D0A88024BF46BB00DD1507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D0A88724BF46BB00DD1507 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62EDC66324B8AE510064C982 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +325,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		62D0A88824BF46BB00DD1507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62D0A88924BF46BB00DD1507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		62EDC66C24B8AE520064C982 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1005,6 +1083,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		62D0A88A24BF46BB00DD1507 /* Build configuration list for PBXNativeTarget "TF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D0A88824BF46BB00DD1507 /* Debug */,
+				62D0A88924BF46BB00DD1507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		62EDC66224B8AE510064C982 /* Build configuration list for PBXProject "TFOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
