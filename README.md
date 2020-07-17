@@ -1,18 +1,29 @@
 # Logic
 iOS OpenGL
 
-
-
-
 >!!!重要网站
 >
 >[欢迎来到OpenGL的世界](https://learnopengl-cn.github.io)
 >
 >[learnopengl-github](https://github.com/LearnOpenGL-CN/LearnOpenGL-CN)
 
+
+## 我的OpenGL学习库
+
+- [OpenGL_LIB](https://github.com/usiege/OpenGL_LIB)
+
+
+## CC的学习指导
+> 学习日志
+
+
+### 2020-07-17
+
+- [application、render server、opengl、core animation、gpu、显示器的关系](https://www.cnblogs.com/feng9exe/p/10339907.html)
+
 ### 2020-07-15
 
-- 
+- [OpenGL日常01-Mac纯环境配置(glfw)](https://www.jianshu.com/p/158daf985cd6)
 
 ### 2020-07-10
 
