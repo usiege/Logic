@@ -17,6 +17,10 @@ iOS OpenGL
 > 学习日志
 
 
+### 2020
+
+
+
 ### 2020-07-17
 
 - [application、render server、opengl、core animation、gpu、显示器的关系](https://www.cnblogs.com/feng9exe/p/10339907.html)
@@ -59,3 +63,15 @@ iOS OpenGL
 
 - [Graphics OpenGL初识](./Graphics/001-开课)
 - [OpenGL环境搭建](./Graphics/000-环境)
+
+### 视觉
+
+视觉班腾讯课堂上课(直播/回看)地址: https://ke.qq.com/course/451575?tuin=27e5325b 
+
+视觉班百度云网盘地址以及提取码: 链接: https://pan.baidu.com/s/1WZRtlYK4vjdJ9-5c7zIDpg 密码:fu54 
+
+往期优秀博客作业(提供学习与参考): https://mubu.com/doc/CJSil5TLHm 
+
+学员博客(作业提交位置): https://docs.qq.com/sheet/DVFpVdkpsQ0NvWFJX?tab=BB08J2 
+
+视觉班答疑列表: https://docs.qq.com/sheet/DVHd1WWNrUXpVekJJ?tab=BB08J2
