@@ -202,21 +202,21 @@
      参数6：colorSpace,bitmap上使用的颜色空间  kCGImageAlphaPremultipliedLast：RGBA
      */
     CGContextRef spriteContext = CGBitmapContextCreate(spriteData, width, height, 8, width*4,CGImageGetColorSpace(spriteImage), kCGImageAlphaPremultipliedLast);
-    
+
 
     //5、在CGContextRef上--> 将图片绘制出来
     /*
      CGContextDrawImage 使用的是Core Graphics框架，坐标系与UIKit 不一样。UIKit框架的原点在屏幕的左上角，Core Graphics框架的原点在屏幕的左下角。
-     CGContextDrawImage 
+     CGContextDrawImage
      参数1：绘图上下文
      参数2：rect坐标
      参数3：绘制的图片
      */
     CGRect rect = CGRectMake(0, 0, width, height);
-   
+
     //6.使用默认方式绘制
     CGContextDrawImage(spriteContext, rect, spriteImage);
-   
+
     //7、画图完毕就释放上下文
     CGContextRelease(spriteContext);
     
