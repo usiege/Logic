@@ -17,8 +17,6 @@ iOS OpenGL
 > 学习日志
 
 
-### 2020
-
 ### 2020-08-04
 
 - [GLSL](./Graphics/011-GLSL/GLSL.pdf)
