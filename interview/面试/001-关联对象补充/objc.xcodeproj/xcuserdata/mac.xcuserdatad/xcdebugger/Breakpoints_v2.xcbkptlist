@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FC78B41E-A416-44F6-8159-7CDE2B99FE35"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F070391-0F7C-42B5-B321-5A7F7A3EA0B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/objc-object.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "objc_object::initIsa(cls, nonpointer, hasCxxDtor)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6932E60-38E3-49A8-B4A3-A69E8B074F2C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KCObjc/main.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "796E43EE-1712-495F-B457-3CA751F71B17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KCObjc/main.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B00A1A-C3D4-417A-A5F3-740BC4D366D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/objc-references.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "_object_set_associative_reference(object, key, value, policy)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0A1180E-D997-4BBE-A296-4BC600FF15AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/objc-references.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "_object_set_associative_reference(object, key, value, policy)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4749E4CB-7470-49B7-BF7E-C09ED7028BA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/llvm-DenseMap.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "try_emplace(Key, Args)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4749E4CB-7470-49B7-BF7E-C09ED7028BA2 - 863a923fa48503a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::pair&lt;objc::DenseMapIterator&lt;objc_class*, PendingInitialize*, objc::DenseMapValueInfo&lt;PendingInitialize*&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseMapPair&lt;objc_class*, PendingInitialize*&gt;, false&gt;, bool&gt; objc::DenseMapBase&lt;objc::DenseMap&lt;objc_class*, PendingInitialize*, objc::DenseMapValueInfo&lt;PendingInitialize*&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseMapPair&lt;objc_class*, PendingInitialize*&gt; &gt;, objc_class*, PendingInitialize*, objc::DenseMapValueInfo&lt;PendingInitialize*&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseMapPair&lt;objc_class*, PendingInitialize*&gt; &gt;::try_emplace&lt;PendingInitialize*&amp;&gt;(objc_class* const&amp;, PendingInitialize*&amp;)"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD%E7%AC%AC%E4%BA%8C%E6%9C%9F/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC15%E8%8A%82%E8%AF%BE-OC%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/001-%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E8%A1%A5%E5%85%85/runtime/llvm-DenseMap.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "4749E4CB-7470-49B7-BF7E-C09ED7028BA2 - 3ad444babf283e3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::pair&lt;objc::DenseMapIterator&lt;objc_class*, objc::category_list, objc::DenseMapValueInfo&lt;objc::category_list&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseMapPair&lt;objc_class*, objc::category_list&gt;, false&gt;, bool&gt; objc::DenseMapBase&lt;objc::DenseMap&lt;objc_class*, objc::category_list, objc::DenseMapValueInfo&lt;objc::category_list&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseMapPair&lt;objc_class*, objc::category_list&gt; &gt;, objc_class*, objc::category_list, objc::DenseMapValueInfo&lt;objc::category_list&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseMapPair&lt;objc_class*, objc::category_list&gt; &gt;::try_emplace&lt;locstamped_category_t&amp;&gt;(objc_class* const&amp;, locstamped_category_t&amp;)"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD%E7%AC%AC%E4%BA%8C%E6%9C%9F/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC15%E8%8A%82%E8%AF%BE-OC%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/001-%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E8%A1%A5%E5%85%85/runtime/llvm-DenseMap.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "4749E4CB-7470-49B7-BF7E-C09ED7028BA2 - cc5420c692840e0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::pair&lt;objc::DenseMapIterator&lt;objc_class*, objc::detail::DenseSetEmpty, objc::DenseMapValueInfo&lt;objc::detail::DenseSetEmpty&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseSetPair&lt;objc_class*&gt;, false&gt;, bool&gt; objc::DenseMapBase&lt;objc::DenseMap&lt;objc_class*, objc::detail::DenseSetEmpty, objc::DenseMapValueInfo&lt;objc::detail::DenseSetEmpty&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseSetPair&lt;objc_class*&gt; &gt;, objc_class*, objc::detail::DenseSetEmpty, objc::DenseMapValueInfo&lt;objc::detail::DenseSetEmpty&gt;, objc::DenseMapInfo&lt;objc_class*&gt;, objc::detail::DenseSetPair&lt;objc_class*&gt; &gt;::try_emplace&lt;objc::detail::DenseSetEmpty&amp;&gt;(objc_class* const&amp;, objc::detail::DenseSetEmpty&amp;)"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD%E7%AC%AC%E4%BA%8C%E6%9C%9F/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC15%E8%8A%82%E8%AF%BE-OC%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/001-%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E8%A1%A5%E5%85%85/runtime/llvm-DenseMap.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "4749E4CB-7470-49B7-BF7E-C09ED7028BA2 - cc5420c692840e0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::pair&lt;objc::DenseMapIterator&lt;char const*, objc::detail::DenseSetEmpty, objc::DenseMapValueInfo&lt;objc::detail::DenseSetEmpty&gt;, objc::DenseMapInfo&lt;char const*&gt;, objc::detail::DenseSetPair&lt;char const*&gt;, false&gt;, bool&gt; objc::DenseMapBase&lt;objc::DenseMap&lt;char const*, objc::detail::DenseSetEmpty, objc::DenseMapValueInfo&lt;objc::detail::DenseSetEmpty&gt;, objc::DenseMapInfo&lt;char const*&gt;, objc::detail::DenseSetPair&lt;char const*&gt; &gt;, char const*, objc::detail::DenseSetEmpty, objc::DenseMapValueInfo&lt;objc::detail::DenseSetEmpty&gt;, objc::DenseMapInfo&lt;char const*&gt;, objc::detail::DenseSetPair&lt;char const*&gt; &gt;::try_emplace&lt;objc::detail::DenseSetEmpty&amp;&gt;(char const* const&amp;, objc::detail::DenseSetEmpty&amp;)"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD%E7%AC%AC%E4%BA%8C%E6%9C%9F/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC15%E8%8A%82%E8%AF%BE-OC%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/001-%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E8%A1%A5%E5%85%85/runtime/llvm-DenseMap.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "4749E4CB-7470-49B7-BF7E-C09ED7028BA2 - cd959cb4510e4b90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::pair&lt;objc::DenseMapIterator&lt;DisguisedPtr&lt;objc_object&gt;, objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt;, objc::DenseMapValueInfo&lt;objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt; &gt;, objc::DenseMapInfo&lt;DisguisedPtr&lt;objc_object&gt; &gt;, objc::detail::DenseMapPair&lt;DisguisedPtr&lt;objc_object&gt;, objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt; &gt;, false&gt;, bool&gt; objc::DenseMapBase&lt;objc::DenseMap&lt;DisguisedPtr&lt;objc_object&gt;, objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt;, objc::DenseMapValueInfo&lt;objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt; &gt;, objc::DenseMapInfo&lt;DisguisedPtr&lt;objc_object&gt; &gt;, objc::detail::DenseMapPair&lt;DisguisedPtr&lt;objc_object&gt;, objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt; &gt; &gt;, DisguisedPtr&lt;objc_object&gt;, objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt;, objc::DenseMapValueInfo&lt;objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt; &gt;, objc::DenseMapInfo&lt;DisguisedPtr&lt;objc_object&gt; &gt;, objc::detail::DenseMapPair&lt;DisguisedPtr&lt;objc_object&gt;, objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt; &gt; &gt;::try_emplace&lt;objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt; &gt;(DisguisedPtr&lt;objc_object&gt; const&amp;, objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt;&amp;&amp;)"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD%E7%AC%AC%E4%BA%8C%E6%9C%9F/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC15%E8%8A%82%E8%AF%BE-OC%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/001-%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E8%A1%A5%E5%85%85/runtime/llvm-DenseMap.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "4749E4CB-7470-49B7-BF7E-C09ED7028BA2 - 83537aaeec1cb96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::pair&lt;objc::DenseMapIterator&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt;, false&gt;, bool&gt; objc::DenseMapBase&lt;objc::DenseMap&lt;void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt;, void const*, objc::ObjcAssociation, objc::DenseMapValueInfo&lt;objc::ObjcAssociation&gt;, objc::DenseMapInfo&lt;void const*&gt;, objc::detail::DenseMapPair&lt;void const*, objc::ObjcAssociation&gt; &gt;::try_emplace&lt;objc::ObjcAssociation&gt;(void const* const&amp;, objc::ObjcAssociation&amp;&amp;)"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/VIP/%E5%A4%A7%E5%B8%88%E7%8F%AD%E7%AC%AC%E4%BA%8C%E6%9C%9F/%E5%A4%A7%E5%B8%88%E7%8F%AD-%E7%AC%AC15%E8%8A%82%E8%AF%BE-OC%E5%BA%95%E5%B1%82%E9%9D%A2%E8%AF%95/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/001-%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E8%A1%A5%E5%85%85/runtime/llvm-DenseMap.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
