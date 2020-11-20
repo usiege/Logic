@@ -1,0 +1,1 @@
+add_llvm_library( HKPlugin MODULE BUILDTREE_ONLY HKPlugin.cpp)
