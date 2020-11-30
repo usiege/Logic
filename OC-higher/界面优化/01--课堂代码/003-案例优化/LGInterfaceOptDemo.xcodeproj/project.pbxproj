@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012BF6FD2418BC9400062869 /* LGTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BF6FC2418BC9400062869 /* LGTimeLineModel.m */; };
+		012BF70324191F6B00062869 /* LGTimeLineCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BF70224191F6B00062869 /* LGTimeLineCellLayout.m */; };
+		012BF7082419544300062869 /* timeLine.json in Resources */ = {isa = PBXBuildFile; fileRef = 012BF7072419544200062869 /* timeLine.json */; };
+		012BF70C2419722B00062869 /* UIImage+cornerRadious.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BF70B2419722B00062869 /* UIImage+cornerRadious.m */; };
+		015F03CF24154764002E64C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F03CE24154764002E64C3 /* AppDelegate.m */; };
+		015F03D224154764002E64C3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F03D124154764002E64C3 /* SceneDelegate.m */; };
+		015F03D824154764002E64C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015F03D624154764002E64C3 /* Main.storyboard */; };
+		015F03DA24154767002E64C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015F03D924154767002E64C3 /* Assets.xcassets */; };
+		015F03DD24154767002E64C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015F03DB24154767002E64C3 /* LaunchScreen.storyboard */; };
+		015F03E024154767002E64C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F03DF24154767002E64C3 /* main.m */; };
+		015F03EA24154767002E64C3 /* LGInterfaceOptDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F03E924154767002E64C3 /* LGInterfaceOptDemoTests.m */; };
+		015F03F524154767002E64C3 /* LGInterfaceOptDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F03F424154767002E64C3 /* LGInterfaceOptDemoUITests.m */; };
+		015F040424154CFA002E64C3 /* LGTimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F040324154CFA002E64C3 /* LGTimeLineViewController.m */; };
+		015F040724154D3D002E64C3 /* LGTimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 015F040624154D3D002E64C3 /* LGTimeLineCell.m */; };
+		09865DFB3212FBCE7ADF1C90 /* libPods-LGInterfaceOptDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 207CE91AB9EBE963CF58EE19 /* libPods-LGInterfaceOptDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015F03E624154767002E64C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015F03C224154764002E64C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015F03C924154764002E64C3;
+			remoteInfo = LGInterfaceOptDemo;
+		};
+		015F03F124154767002E64C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015F03C224154764002E64C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015F03C924154764002E64C3;
+			remoteInfo = LGInterfaceOptDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012BF6FA2418BAB800062869 /* LGIntOptPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGIntOptPrefixHeader.pch; sourceTree = "<group>"; };
+		012BF6FB2418BC9400062869 /* LGTimeLineModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTimeLineModel.h; sourceTree = "<group>"; };
+		012BF6FC2418BC9400062869 /* LGTimeLineModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTimeLineModel.m; sourceTree = "<group>"; };
+		012BF70124191F6B00062869 /* LGTimeLineCellLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTimeLineCellLayout.h; sourceTree = "<group>"; };
+		012BF70224191F6B00062869 /* LGTimeLineCellLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTimeLineCellLayout.m; sourceTree = "<group>"; };
+		012BF7072419544200062869 /* timeLine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLine.json; sourceTree = "<group>"; };
+		012BF70A2419722B00062869 /* UIImage+cornerRadious.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+cornerRadious.h"; sourceTree = "<group>"; };
+		012BF70B2419722B00062869 /* UIImage+cornerRadious.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+cornerRadious.m"; sourceTree = "<group>"; };
+		015F03CA24154764002E64C3 /* LGInterfaceOptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGInterfaceOptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015F03CD24154764002E64C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		015F03CE24154764002E64C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		015F03D024154764002E64C3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		015F03D124154764002E64C3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		015F03D724154764002E64C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		015F03D924154767002E64C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		015F03DC24154767002E64C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		015F03DE24154767002E64C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015F03DF24154767002E64C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		015F03E524154767002E64C3 /* LGInterfaceOptDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGInterfaceOptDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		015F03E924154767002E64C3 /* LGInterfaceOptDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGInterfaceOptDemoTests.m; sourceTree = "<group>"; };
+		015F03EB24154767002E64C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015F03F024154767002E64C3 /* LGInterfaceOptDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGInterfaceOptDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		015F03F424154767002E64C3 /* LGInterfaceOptDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGInterfaceOptDemoUITests.m; sourceTree = "<group>"; };
+		015F03F624154767002E64C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015F040224154CFA002E64C3 /* LGTimeLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTimeLineViewController.h; sourceTree = "<group>"; };
+		015F040324154CFA002E64C3 /* LGTimeLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTimeLineViewController.m; sourceTree = "<group>"; };
+		015F040524154D3D002E64C3 /* LGTimeLineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTimeLineCell.h; sourceTree = "<group>"; };
+		015F040624154D3D002E64C3 /* LGTimeLineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTimeLineCell.m; sourceTree = "<group>"; };
+		207CE91AB9EBE963CF58EE19 /* libPods-LGInterfaceOptDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGInterfaceOptDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9D87B1CBF1EDBDC1B8C221 /* Pods-LGInterfaceOptDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGInterfaceOptDemo.release.xcconfig"; path = "Target Support Files/Pods-LGInterfaceOptDemo/Pods-LGInterfaceOptDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FE33CF472E097E099B7CDB02 /* Pods-LGInterfaceOptDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGInterfaceOptDemo.debug.xcconfig"; path = "Target Support Files/Pods-LGInterfaceOptDemo/Pods-LGInterfaceOptDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015F03C724154764002E64C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09865DFB3212FBCE7ADF1C90 /* libPods-LGInterfaceOptDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015F03E224154767002E64C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015F03ED24154767002E64C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012BF7042419333200062869 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				012BF6FB2418BC9400062869 /* LGTimeLineModel.h */,
+				012BF6FC2418BC9400062869 /* LGTimeLineModel.m */,
+				012BF70124191F6B00062869 /* LGTimeLineCellLayout.h */,
+				012BF70224191F6B00062869 /* LGTimeLineCellLayout.m */,
+				012BF7072419544200062869 /* timeLine.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		012BF7052419334F00062869 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				015F040524154D3D002E64C3 /* LGTimeLineCell.h */,
+				015F040624154D3D002E64C3 /* LGTimeLineCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		012BF7062419335B00062869 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				015F040224154CFA002E64C3 /* LGTimeLineViewController.h */,
+				015F040324154CFA002E64C3 /* LGTimeLineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		012BF7092419720D00062869 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				012BF70A2419722B00062869 /* UIImage+cornerRadious.h */,
+				012BF70B2419722B00062869 /* UIImage+cornerRadious.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		015F03C124154764002E64C3 = {
+			isa = PBXGroup;
+			children = (
+				015F03CC24154764002E64C3 /* LGInterfaceOptDemo */,
+				015F03E824154767002E64C3 /* LGInterfaceOptDemoTests */,
+				015F03F324154767002E64C3 /* LGInterfaceOptDemoUITests */,
+				015F03CB24154764002E64C3 /* Products */,
+				0470081D9690EB614D7F206C /* Pods */,
+				E00171AF6ECFD1644E8AA190 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		015F03CB24154764002E64C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015F03CA24154764002E64C3 /* LGInterfaceOptDemo.app */,
+				015F03E524154767002E64C3 /* LGInterfaceOptDemoTests.xctest */,
+				015F03F024154767002E64C3 /* LGInterfaceOptDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015F03CC24154764002E64C3 /* LGInterfaceOptDemo */ = {
+			isa = PBXGroup;
+			children = (
+				012BF7092419720D00062869 /* Utils */,
+				012BF7062419335B00062869 /* Controller */,
+				012BF7052419334F00062869 /* View */,
+				012BF7042419333200062869 /* Model */,
+				015F03CD24154764002E64C3 /* AppDelegate.h */,
+				015F03CE24154764002E64C3 /* AppDelegate.m */,
+				015F03D024154764002E64C3 /* SceneDelegate.h */,
+				015F03D124154764002E64C3 /* SceneDelegate.m */,
+				015F03D624154764002E64C3 /* Main.storyboard */,
+				015F03D924154767002E64C3 /* Assets.xcassets */,
+				015F03DB24154767002E64C3 /* LaunchScreen.storyboard */,
+				015F03DE24154767002E64C3 /* Info.plist */,
+				015F03DF24154767002E64C3 /* main.m */,
+				012BF6FA2418BAB800062869 /* LGIntOptPrefixHeader.pch */,
+			);
+			path = LGInterfaceOptDemo;
+			sourceTree = "<group>";
+		};
+		015F03E824154767002E64C3 /* LGInterfaceOptDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				015F03E924154767002E64C3 /* LGInterfaceOptDemoTests.m */,
+				015F03EB24154767002E64C3 /* Info.plist */,
+			);
+			path = LGInterfaceOptDemoTests;
+			sourceTree = "<group>";
+		};
+		015F03F324154767002E64C3 /* LGInterfaceOptDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				015F03F424154767002E64C3 /* LGInterfaceOptDemoUITests.m */,
+				015F03F624154767002E64C3 /* Info.plist */,
+			);
+			path = LGInterfaceOptDemoUITests;
+			sourceTree = "<group>";
+		};
+		0470081D9690EB614D7F206C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE33CF472E097E099B7CDB02 /* Pods-LGInterfaceOptDemo.debug.xcconfig */,
+				9C9D87B1CBF1EDBDC1B8C221 /* Pods-LGInterfaceOptDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E00171AF6ECFD1644E8AA190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207CE91AB9EBE963CF58EE19 /* libPods-LGInterfaceOptDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015F03C924154764002E64C3 /* LGInterfaceOptDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015F03F924154767002E64C3 /* Build configuration list for PBXNativeTarget "LGInterfaceOptDemo" */;
+			buildPhases = (
+				75505EFF717817CBC4B5F5C5 /* [CP] Check Pods Manifest.lock */,
+				015F03C624154764002E64C3 /* Sources */,
+				015F03C724154764002E64C3 /* Frameworks */,
+				015F03C824154764002E64C3 /* Resources */,
+				09AAD9724B28C9142E5BCF56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGInterfaceOptDemo;
+			productName = LGInterfaceOptDemo;
+			productReference = 015F03CA24154764002E64C3 /* LGInterfaceOptDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		015F03E424154767002E64C3 /* LGInterfaceOptDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015F03FC24154767002E64C3 /* Build configuration list for PBXNativeTarget "LGInterfaceOptDemoTests" */;
+			buildPhases = (
+				015F03E124154767002E64C3 /* Sources */,
+				015F03E224154767002E64C3 /* Frameworks */,
+				015F03E324154767002E64C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015F03E724154767002E64C3 /* PBXTargetDependency */,
+			);
+			name = LGInterfaceOptDemoTests;
+			productName = LGInterfaceOptDemoTests;
+			productReference = 015F03E524154767002E64C3 /* LGInterfaceOptDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		015F03EF24154767002E64C3 /* LGInterfaceOptDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015F03FF24154767002E64C3 /* Build configuration list for PBXNativeTarget "LGInterfaceOptDemoUITests" */;
+			buildPhases = (
+				015F03EC24154767002E64C3 /* Sources */,
+				015F03ED24154767002E64C3 /* Frameworks */,
+				015F03EE24154767002E64C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015F03F224154767002E64C3 /* PBXTargetDependency */,
+			);
+			name = LGInterfaceOptDemoUITests;
+			productName = LGInterfaceOptDemoUITests;
+			productReference = 015F03F024154767002E64C3 /* LGInterfaceOptDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015F03C224154764002E64C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = LGEDU;
+				TargetAttributes = {
+					015F03C924154764002E64C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					015F03E424154767002E64C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 015F03C924154764002E64C3;
+					};
+					015F03EF24154767002E64C3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 015F03C924154764002E64C3;
+					};
+				};
+			};
+			buildConfigurationList = 015F03C524154764002E64C3 /* Build configuration list for PBXProject "LGInterfaceOptDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 015F03C124154764002E64C3;
+			productRefGroup = 015F03CB24154764002E64C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015F03C924154764002E64C3 /* LGInterfaceOptDemo */,
+				015F03E424154767002E64C3 /* LGInterfaceOptDemoTests */,
+				015F03EF24154767002E64C3 /* LGInterfaceOptDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015F03C824154764002E64C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012BF7082419544300062869 /* timeLine.json in Resources */,
+				015F03DD24154767002E64C3 /* LaunchScreen.storyboard in Resources */,
+				015F03DA24154767002E64C3 /* Assets.xcassets in Resources */,
+				015F03D824154764002E64C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015F03E324154767002E64C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015F03EE24154767002E64C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09AAD9724B28C9142E5BCF56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGInterfaceOptDemo/Pods-LGInterfaceOptDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGInterfaceOptDemo/Pods-LGInterfaceOptDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LGInterfaceOptDemo/Pods-LGInterfaceOptDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75505EFF717817CBC4B5F5C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGInterfaceOptDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015F03C624154764002E64C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015F040724154D3D002E64C3 /* LGTimeLineCell.m in Sources */,
+				012BF70324191F6B00062869 /* LGTimeLineCellLayout.m in Sources */,
+				015F03CF24154764002E64C3 /* AppDelegate.m in Sources */,
+				015F03E024154767002E64C3 /* main.m in Sources */,
+				012BF6FD2418BC9400062869 /* LGTimeLineModel.m in Sources */,
+				015F040424154CFA002E64C3 /* LGTimeLineViewController.m in Sources */,
+				012BF70C2419722B00062869 /* UIImage+cornerRadious.m in Sources */,
+				015F03D224154764002E64C3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015F03E124154767002E64C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015F03EA24154767002E64C3 /* LGInterfaceOptDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015F03EC24154767002E64C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015F03F524154767002E64C3 /* LGInterfaceOptDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		015F03E724154767002E64C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015F03C924154764002E64C3 /* LGInterfaceOptDemo */;
+			targetProxy = 015F03E624154767002E64C3 /* PBXContainerItemProxy */;
+		};
+		015F03F224154767002E64C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015F03C924154764002E64C3 /* LGInterfaceOptDemo */;
+			targetProxy = 015F03F124154767002E64C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		015F03D624154764002E64C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015F03D724154764002E64C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		015F03DB24154767002E64C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015F03DC24154767002E64C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015F03F724154767002E64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		015F03F824154767002E64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015F03FA24154767002E64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE33CF472E097E099B7CDB02 /* Pods-LGInterfaceOptDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44QWS44BLE;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGInterfaceOptDemo/LGIntOptPrefixHeader.pch";
+				INFOPLIST_FILE = LGInterfaceOptDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGInterfaceOptDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		015F03FB24154767002E64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9D87B1CBF1EDBDC1B8C221 /* Pods-LGInterfaceOptDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44QWS44BLE;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGInterfaceOptDemo/LGIntOptPrefixHeader.pch";
+				INFOPLIST_FILE = LGInterfaceOptDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGInterfaceOptDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		015F03FD24154767002E64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGInterfaceOptDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGInterfaceOptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGInterfaceOptDemo.app/LGInterfaceOptDemo";
+			};
+			name = Debug;
+		};
+		015F03FE24154767002E64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGInterfaceOptDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGInterfaceOptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGInterfaceOptDemo.app/LGInterfaceOptDemo";
+			};
+			name = Release;
+		};
+		015F040024154767002E64C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGInterfaceOptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGInterfaceOptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGInterfaceOptDemo;
+			};
+			name = Debug;
+		};
+		015F040124154767002E64C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGInterfaceOptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGInterfaceOptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGInterfaceOptDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015F03C524154764002E64C3 /* Build configuration list for PBXProject "LGInterfaceOptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015F03F724154767002E64C3 /* Debug */,
+				015F03F824154767002E64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015F03F924154767002E64C3 /* Build configuration list for PBXNativeTarget "LGInterfaceOptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015F03FA24154767002E64C3 /* Debug */,
+				015F03FB24154767002E64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015F03FC24154767002E64C3 /* Build configuration list for PBXNativeTarget "LGInterfaceOptDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015F03FD24154767002E64C3 /* Debug */,
+				015F03FE24154767002E64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015F03FF24154767002E64C3 /* Build configuration list for PBXNativeTarget "LGInterfaceOptDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015F040024154767002E64C3 /* Debug */,
+				015F040124154767002E64C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015F03C224154764002E64C3 /* Project object */;
+}

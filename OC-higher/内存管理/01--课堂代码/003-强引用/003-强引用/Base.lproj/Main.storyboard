@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dgl-AV-K41">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--强引用Demo-->
+        <scene sceneID="njq-3M-CWG">
+            <objects>
+                <viewController id="3oY-s0-K0S" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ISl-Xm-XwD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="HD8-Ej-2Mt"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="强引用Demo" id="C0c-qy-Pcu">
+                        <barButtonItem key="rightBarButtonItem" title="push" id="IEQ-rJ-I90">
+                            <connections>
+                                <segue destination="SBo-z7-eTO" kind="show" id="bbm-Pa-tss"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3tP-RI-Z97" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="789"/>
+        </scene>
+        <!--LGTimerViewController-->
+        <scene sceneID="8rf-LZ-ZfT">
+            <objects>
+                <viewController id="SBo-z7-eTO" customClass="LGTimerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eEK-XF-RPn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vOk-xu-VAr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="LGTimerViewController" id="qri-dD-hqP">
+                        <barButtonItem key="rightBarButtonItem" title="push" id="Xrv-va-cTg">
+                            <connections>
+                                <segue destination="iYz-Zq-2AJ" kind="show" id="GhA-Gv-TA8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQU-mx-5lc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1593" y="789"/>
+        </scene>
+        <!--LGPushViewController-->
+        <scene sceneID="vOn-p9-e18">
+            <objects>
+                <viewController id="iYz-Zq-2AJ" customClass="LGPushViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ABV-yc-isQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jak-En-XNt">
+                                <rect key="frame" x="77" y="176" width="221" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XfX-vo-nGD">
+                                <rect key="frame" x="67" y="304" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99453800370000001" blue="0.76098087790000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="D1n-7p-jt4"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="LGPushViewController" id="Mbx-ST-UOZ">
+                        <barButtonItem key="rightBarButtonItem" title="push" id="eft-cm-Tex"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lgImageView" destination="XfX-vo-nGD" id="ooB-hT-v2w"/>
+                        <outlet property="tf" destination="Jak-En-XNt" id="Zqu-rO-aVH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3l-hA-MTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2365.5999999999999" y="787.55622188905556"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IIr-k6-bN4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dgl-AV-K41" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nIc-ms-G3Z">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3oY-s0-K0S" kind="relationship" relationship="rootViewController" id="iRj-A5-t9U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhr-J5-Vph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="791.15442278860576"/>
+        </scene>
+    </scenes>
+</document>

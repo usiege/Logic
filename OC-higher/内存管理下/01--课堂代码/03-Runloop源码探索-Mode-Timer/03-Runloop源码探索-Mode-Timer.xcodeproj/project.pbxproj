@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ABFA92B21BA6D640067BED8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA92A21BA6D640067BED8 /* AppDelegate.m */; };
+		7ABFA92E21BA6D640067BED8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA92D21BA6D640067BED8 /* ViewController.m */; };
+		7ABFA93121BA6D640067BED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABFA92F21BA6D640067BED8 /* Main.storyboard */; };
+		7ABFA93321BA6D650067BED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABFA93221BA6D650067BED8 /* Assets.xcassets */; };
+		7ABFA93621BA6D650067BED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABFA93421BA6D650067BED8 /* LaunchScreen.storyboard */; };
+		7ABFA93921BA6D650067BED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA93821BA6D650067BED8 /* main.m */; };
+		7ABFA94321BA6D650067BED8 /* _3_Runloop_____Mode_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA94221BA6D650067BED8 /* _3_Runloop_____Mode_TimerTests.m */; };
+		7ABFA94E21BA6D650067BED8 /* _3_Runloop_____Mode_TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFA94D21BA6D650067BED8 /* _3_Runloop_____Mode_TimerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ABFA93F21BA6D650067BED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABFA91E21BA6D640067BED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABFA92521BA6D640067BED8;
+			remoteInfo = "03-Runloop源码探索-Mode-Timer";
+		};
+		7ABFA94A21BA6D650067BED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABFA91E21BA6D640067BED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABFA92521BA6D640067BED8;
+			remoteInfo = "03-Runloop源码探索-Mode-Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7ABFA92621BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-Runloop源码探索-Mode-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABFA92921BA6D640067BED8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ABFA92A21BA6D640067BED8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ABFA92C21BA6D640067BED8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ABFA92D21BA6D640067BED8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ABFA93021BA6D640067BED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ABFA93221BA6D650067BED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABFA93521BA6D650067BED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ABFA93721BA6D650067BED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABFA93821BA6D650067BED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ABFA93E21BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-Runloop源码探索-Mode-TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABFA94221BA6D650067BED8 /* _3_Runloop_____Mode_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_Runloop_____Mode_TimerTests.m"; sourceTree = "<group>"; };
+		7ABFA94421BA6D650067BED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABFA94921BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-Runloop源码探索-Mode-TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABFA94D21BA6D650067BED8 /* _3_Runloop_____Mode_TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_Runloop_____Mode_TimerUITests.m"; sourceTree = "<group>"; };
+		7ABFA94F21BA6D650067BED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABFA99C21BBAE050067BED8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7ABFA99E21BBAE230067BED8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ABFA92321BA6D640067BED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABFA93B21BA6D650067BED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABFA94621BA6D650067BED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ABFA91D21BA6D640067BED8 = {
+			isa = PBXGroup;
+			children = (
+				7ABFA92821BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer */,
+				7ABFA94121BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerTests */,
+				7ABFA94C21BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerUITests */,
+				7ABFA92721BA6D640067BED8 /* Products */,
+				7ABFA99B21BBAE040067BED8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ABFA92721BA6D640067BED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ABFA92621BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer.app */,
+				7ABFA93E21BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerTests.xctest */,
+				7ABFA94921BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ABFA92821BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer */ = {
+			isa = PBXGroup;
+			children = (
+				7ABFA92921BA6D640067BED8 /* AppDelegate.h */,
+				7ABFA92A21BA6D640067BED8 /* AppDelegate.m */,
+				7ABFA92C21BA6D640067BED8 /* ViewController.h */,
+				7ABFA92D21BA6D640067BED8 /* ViewController.m */,
+				7ABFA92F21BA6D640067BED8 /* Main.storyboard */,
+				7ABFA93221BA6D650067BED8 /* Assets.xcassets */,
+				7ABFA93421BA6D650067BED8 /* LaunchScreen.storyboard */,
+				7ABFA93721BA6D650067BED8 /* Info.plist */,
+				7ABFA93821BA6D650067BED8 /* main.m */,
+			);
+			path = "03-Runloop源码探索-Mode-Timer";
+			sourceTree = "<group>";
+		};
+		7ABFA94121BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ABFA94221BA6D650067BED8 /* _3_Runloop_____Mode_TimerTests.m */,
+				7ABFA94421BA6D650067BED8 /* Info.plist */,
+			);
+			path = "03-Runloop源码探索-Mode-TimerTests";
+			sourceTree = "<group>";
+		};
+		7ABFA94C21BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ABFA94D21BA6D650067BED8 /* _3_Runloop_____Mode_TimerUITests.m */,
+				7ABFA94F21BA6D650067BED8 /* Info.plist */,
+			);
+			path = "03-Runloop源码探索-Mode-TimerUITests";
+			sourceTree = "<group>";
+		};
+		7ABFA99B21BBAE040067BED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ABFA99E21BBAE230067BED8 /* Accelerate.framework */,
+				7ABFA99C21BBAE050067BED8 /* Accounts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ABFA92521BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABFA95221BA6D650067BED8 /* Build configuration list for PBXNativeTarget "03-Runloop源码探索-Mode-Timer" */;
+			buildPhases = (
+				7ABFA92221BA6D640067BED8 /* Sources */,
+				7ABFA92321BA6D640067BED8 /* Frameworks */,
+				7ABFA92421BA6D640067BED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-Runloop源码探索-Mode-Timer";
+			productName = "03-Runloop源码探索-Mode-Timer";
+			productReference = 7ABFA92621BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ABFA93D21BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABFA95521BA6D650067BED8 /* Build configuration list for PBXNativeTarget "03-Runloop源码探索-Mode-TimerTests" */;
+			buildPhases = (
+				7ABFA93A21BA6D650067BED8 /* Sources */,
+				7ABFA93B21BA6D650067BED8 /* Frameworks */,
+				7ABFA93C21BA6D650067BED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABFA94021BA6D650067BED8 /* PBXTargetDependency */,
+			);
+			name = "03-Runloop源码探索-Mode-TimerTests";
+			productName = "03-Runloop源码探索-Mode-TimerTests";
+			productReference = 7ABFA93E21BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ABFA94821BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABFA95821BA6D650067BED8 /* Build configuration list for PBXNativeTarget "03-Runloop源码探索-Mode-TimerUITests" */;
+			buildPhases = (
+				7ABFA94521BA6D650067BED8 /* Sources */,
+				7ABFA94621BA6D650067BED8 /* Frameworks */,
+				7ABFA94721BA6D650067BED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABFA94B21BA6D650067BED8 /* PBXTargetDependency */,
+			);
+			name = "03-Runloop源码探索-Mode-TimerUITests";
+			productName = "03-Runloop源码探索-Mode-TimerUITests";
+			productReference = 7ABFA94921BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ABFA91E21BA6D640067BED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cooci;
+				TargetAttributes = {
+					7ABFA92521BA6D640067BED8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7ABFA93D21BA6D650067BED8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7ABFA92521BA6D640067BED8;
+					};
+					7ABFA94821BA6D650067BED8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7ABFA92521BA6D640067BED8;
+					};
+				};
+			};
+			buildConfigurationList = 7ABFA92121BA6D640067BED8 /* Build configuration list for PBXProject "03-Runloop源码探索-Mode-Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ABFA91D21BA6D640067BED8;
+			productRefGroup = 7ABFA92721BA6D640067BED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ABFA92521BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer */,
+				7ABFA93D21BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerTests */,
+				7ABFA94821BA6D650067BED8 /* 03-Runloop源码探索-Mode-TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ABFA92421BA6D640067BED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABFA93621BA6D650067BED8 /* LaunchScreen.storyboard in Resources */,
+				7ABFA93321BA6D650067BED8 /* Assets.xcassets in Resources */,
+				7ABFA93121BA6D640067BED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABFA93C21BA6D650067BED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABFA94721BA6D650067BED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ABFA92221BA6D640067BED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABFA92E21BA6D640067BED8 /* ViewController.m in Sources */,
+				7ABFA93921BA6D650067BED8 /* main.m in Sources */,
+				7ABFA92B21BA6D640067BED8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABFA93A21BA6D650067BED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABFA94321BA6D650067BED8 /* _3_Runloop_____Mode_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABFA94521BA6D650067BED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABFA94E21BA6D650067BED8 /* _3_Runloop_____Mode_TimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ABFA94021BA6D650067BED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABFA92521BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer */;
+			targetProxy = 7ABFA93F21BA6D650067BED8 /* PBXContainerItemProxy */;
+		};
+		7ABFA94B21BA6D650067BED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABFA92521BA6D640067BED8 /* 03-Runloop源码探索-Mode-Timer */;
+			targetProxy = 7ABFA94A21BA6D650067BED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ABFA92F21BA6D640067BED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABFA93021BA6D640067BED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ABFA93421BA6D650067BED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABFA93521BA6D650067BED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ABFA95021BA6D650067BED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ABFA95121BA6D650067BED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ABFA95321BA6D650067BED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "03-Runloop源码探索-Mode-Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lg.cn.KCVideo.-3-Runloop-----Mode-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ABFA95421BA6D650067BED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "03-Runloop源码探索-Mode-Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lg.cn.KCVideo.-3-Runloop-----Mode-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7ABFA95621BA6D650067BED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "03-Runloop源码探索-Mode-TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lg.cn.KCVideo.-3-Runloop-----Mode-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-Runloop源码探索-Mode-Timer.app/03-Runloop源码探索-Mode-Timer";
+			};
+			name = Debug;
+		};
+		7ABFA95721BA6D650067BED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "03-Runloop源码探索-Mode-TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lg.cn.KCVideo.-3-Runloop-----Mode-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-Runloop源码探索-Mode-Timer.app/03-Runloop源码探索-Mode-Timer";
+			};
+			name = Release;
+		};
+		7ABFA95921BA6D650067BED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "03-Runloop源码探索-Mode-TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lg.cn.KCVideo.-3-Runloop-----Mode-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "03-Runloop源码探索-Mode-Timer";
+			};
+			name = Debug;
+		};
+		7ABFA95A21BA6D650067BED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "03-Runloop源码探索-Mode-TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lg.cn.KCVideo.-3-Runloop-----Mode-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "03-Runloop源码探索-Mode-Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ABFA92121BA6D640067BED8 /* Build configuration list for PBXProject "03-Runloop源码探索-Mode-Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABFA95021BA6D650067BED8 /* Debug */,
+				7ABFA95121BA6D650067BED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABFA95221BA6D650067BED8 /* Build configuration list for PBXNativeTarget "03-Runloop源码探索-Mode-Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABFA95321BA6D650067BED8 /* Debug */,
+				7ABFA95421BA6D650067BED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABFA95521BA6D650067BED8 /* Build configuration list for PBXNativeTarget "03-Runloop源码探索-Mode-TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABFA95621BA6D650067BED8 /* Debug */,
+				7ABFA95721BA6D650067BED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABFA95821BA6D650067BED8 /* Build configuration list for PBXNativeTarget "03-Runloop源码探索-Mode-TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABFA95921BA6D650067BED8 /* Debug */,
+				7ABFA95A21BA6D650067BED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ABFA91E21BA6D640067BED8 /* Project object */;
+}

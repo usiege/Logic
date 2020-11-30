@@ -1,0 +1,8 @@
+target 'LGInterfaceOptDemo' do  
+#    pod "MWPhotoBrowser"
+    pod "TZImagePickerController"
+    pod "FSTextView"
+    pod 'Masonry'
+    pod 'YYModel'
+    pod 'SDWebImage'
+end
