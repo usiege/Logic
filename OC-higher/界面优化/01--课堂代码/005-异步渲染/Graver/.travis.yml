@@ -1,0 +1,22 @@
+# references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+
+osx_image: xcode10
+language: objective-c
+
+xcode_workspace: GraverDemo.xcworkspace
+xcode_scheme: GraverDemo
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+
+podfile: ./podfile
+
+before_install:
+- bundle install
+
+install:
+- pod repo update
+- bundle exec pod install --verbose
+
+cache:
+- cocoapods
