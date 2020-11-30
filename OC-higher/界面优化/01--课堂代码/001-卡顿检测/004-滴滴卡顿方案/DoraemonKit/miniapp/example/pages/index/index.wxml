@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <button class="operate-btn" bindtap="sendRequest">发个请求</button>
+  <button class="operate-btn" bindtap="sendDokitRequest">发个dokit.cn请求</button>
+  <dokit projectId="749a0600b5e48dd77cf8ee680be7b1b7"></dokit>
+</view>
