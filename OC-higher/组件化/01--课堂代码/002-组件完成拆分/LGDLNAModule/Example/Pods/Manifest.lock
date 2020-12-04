@@ -1,0 +1,36 @@
+PODS:
+  - CocoaAsyncSocket (7.6.4)
+  - LGDLNAModule (0.1.0):
+    - LGMacroAndCategoryModule
+    - MRDLNA
+  - LGMacroAndCategoryModule (0.1.0)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - LGDLNAModule (from `../`)
+  - LGMacroAndCategoryModule (from `../../LGMacroAndCategoryModule`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - MRDLNA
+
+EXTERNAL SOURCES:
+  LGDLNAModule:
+    :path: "../"
+  LGMacroAndCategoryModule:
+    :path: "../../LGMacroAndCategoryModule"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  LGDLNAModule: 01a9cfcb713f7b22a37caaf689897ba3ba14aa23
+  LGMacroAndCategoryModule: bda298343ff55fa8af6f1aa1133dffb0e35ea3b7
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+
+PODFILE CHECKSUM: ce776e08910a14635f0338a7339273ddf578d2b1
+
+COCOAPODS: 1.9.0.beta.2

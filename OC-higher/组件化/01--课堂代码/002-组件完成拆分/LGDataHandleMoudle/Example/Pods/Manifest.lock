@@ -1,0 +1,16 @@
+PODS:
+  - LGDataHandleMoudle (0.1.0)
+
+DEPENDENCIES:
+  - LGDataHandleMoudle (from `../`)
+
+EXTERNAL SOURCES:
+  LGDataHandleMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LGDataHandleMoudle: f0604d6b25f46b859a2bc363ac2812829fd1a730
+
+PODFILE CHECKSUM: 8eff3884e9ea8ab4a7b9d71112ef8dc08ad8c186
+
+COCOAPODS: 1.9.0.beta.2

@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62457CE4B21A4AB4B8964E25AE13E2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6669A956B5E5C16F88F4C28DA13E0DE6 /* Pods-LGHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29EAFF9C3904EC3BE114E497A979CCA /* Pods-LGHomeModule_Example-dummy.m */; };
+		75C9E7DBF75A3FAAC4922FB876C540E0 /* LGHomeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC9921A1668CB2CCA0276286269B60D /* LGHomeModule-dummy.m */; };
+		76DBFABB268055BF872D371D09828E8E /* Pods-LGHomeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A94254144931324133822433C31AE67B /* Pods-LGHomeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AD4EBA12428CD290092FCC6 /* LGResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB6C2428CD290092FCC6 /* LGResponse.m */; };
+		7AD4EBA22428CD290092FCC6 /* HomeTableViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB6D2428CD290092FCC6 /* HomeTableViewProxy.m */; };
+		7AD4EBA32428CD290092FCC6 /* HomeTableViewDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB6E2428CD290092FCC6 /* HomeTableViewDefines.h */; };
+		7AD4EBA42428CD290092FCC6 /* HomeTableViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB6F2428CD290092FCC6 /* HomeTableViewProxy.h */; };
+		7AD4EBA52428CD290092FCC6 /* LGResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB702428CD290092FCC6 /* LGResponse.h */; };
+		7AD4EBA62428CD290092FCC6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB722428CD290092FCC6 /* HomeViewController.m */; };
+		7AD4EBA72428CD290092FCC6 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB732428CD290092FCC6 /* HomeViewController.h */; };
+		7AD4EBA82428CD290092FCC6 /* HomeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB752428CD290092FCC6 /* HomeDataSource.m */; };
+		7AD4EBA92428CD290092FCC6 /* Home_TableView_Response_12.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB762428CD290092FCC6 /* Home_TableView_Response_12.json */; };
+		7AD4EBAA2428CD290092FCC6 /* Home_TableView_Response_13.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB772428CD290092FCC6 /* Home_TableView_Response_13.json */; };
+		7AD4EBAB2428CD290092FCC6 /* HomeTemplateResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB782428CD290092FCC6 /* HomeTemplateResponse.h */; };
+		7AD4EBAC2428CD290092FCC6 /* Home_TableView_Response_14.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB792428CD290092FCC6 /* Home_TableView_Response_14.json */; };
+		7AD4EBAD2428CD290092FCC6 /* Home_TableView_Response_15.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB7A2428CD290092FCC6 /* Home_TableView_Response_15.json */; };
+		7AD4EBAE2428CD290092FCC6 /* HomeDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB7B2428CD290092FCC6 /* HomeDataSource.h */; };
+		7AD4EBAF2428CD290092FCC6 /* HomeTemplateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB7C2428CD290092FCC6 /* HomeTemplateResponse.m */; };
+		7AD4EBB02428CD290092FCC6 /* Home_TableView_Response_11.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB7D2428CD290092FCC6 /* Home_TableView_Response_11.json */; };
+		7AD4EBB12428CD290092FCC6 /* Home_Channel_List.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB7E2428CD290092FCC6 /* Home_Channel_List.json */; };
+		7AD4EBB22428CD290092FCC6 /* HomeBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB802428CD290092FCC6 /* HomeBannerTableViewCell.xib */; };
+		7AD4EBB32428CD290092FCC6 /* HomeTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB812428CD290092FCC6 /* HomeTwoTableViewCell.m */; };
+		7AD4EBB42428CD290092FCC6 /* HomeRankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB822428CD290092FCC6 /* HomeRankTableViewCell.xib */; };
+		7AD4EBB52428CD290092FCC6 /* HomeChangeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB832428CD290092FCC6 /* HomeChangeTableViewCell.h */; };
+		7AD4EBB62428CD290092FCC6 /* HomeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB842428CD290092FCC6 /* HomeBannerCell.m */; };
+		7AD4EBB72428CD290092FCC6 /* HomeBaseTemplateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB852428CD290092FCC6 /* HomeBaseTemplateView.xib */; };
+		7AD4EBB82428CD290092FCC6 /* HomeBannerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB862428CD290092FCC6 /* HomeBannerCollectionViewCell.h */; };
+		7AD4EBB92428CD290092FCC6 /* HomeBaseTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB872428CD290092FCC6 /* HomeBaseTemplateView.m */; };
+		7AD4EBBA2428CD290092FCC6 /* HomeRankTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB882428CD290092FCC6 /* HomeRankTableViewCell.h */; };
+		7AD4EBBB2428CD290092FCC6 /* HomeTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB892428CD290092FCC6 /* HomeTitleTableViewCell.xib */; };
+		7AD4EBBC2428CD290092FCC6 /* HomeTitleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB8A2428CD290092FCC6 /* HomeTitleTableViewCell.h */; };
+		7AD4EBBD2428CD290092FCC6 /* HomeTitleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB8B2428CD290092FCC6 /* HomeTitleCell.h */; };
+		7AD4EBBE2428CD290092FCC6 /* HomeBannerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB8C2428CD290092FCC6 /* HomeBannerTableViewCell.h */; };
+		7AD4EBBF2428CD290092FCC6 /* HomeOneBigTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB8D2428CD290092FCC6 /* HomeOneBigTableViewCell.m */; };
+		7AD4EBC02428CD290092FCC6 /* HomeCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB8E2428CD290092FCC6 /* HomeCollectionViewCell.h */; };
+		7AD4EBC12428CD290092FCC6 /* LGTableViewDataConfigProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB8F2428CD290092FCC6 /* LGTableViewDataConfigProtocol.h */; };
+		7AD4EBC22428CD290092FCC6 /* HomeBannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB902428CD290092FCC6 /* HomeBannerCollectionViewCell.xib */; };
+		7AD4EBC32428CD290092FCC6 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB912428CD290092FCC6 /* HomeTableViewCell.m */; };
+		7AD4EBC42428CD290092FCC6 /* HomeChangeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB922428CD290092FCC6 /* HomeChangeTableViewCell.m */; };
+		7AD4EBC52428CD290092FCC6 /* HomeTwoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB932428CD290092FCC6 /* HomeTwoTableViewCell.h */; };
+		7AD4EBC62428CD290092FCC6 /* HomeTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB942428CD290092FCC6 /* HomeTwoTableViewCell.xib */; };
+		7AD4EBC72428CD290092FCC6 /* HomeChangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EB952428CD290092FCC6 /* HomeChangeTableViewCell.xib */; };
+		7AD4EBC82428CD290092FCC6 /* HomeTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB962428CD290092FCC6 /* HomeTitleCell.m */; };
+		7AD4EBC92428CD290092FCC6 /* HomeTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB972428CD290092FCC6 /* HomeTitleTableViewCell.m */; };
+		7AD4EBCA2428CD290092FCC6 /* HomeBaseTemplateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB982428CD290092FCC6 /* HomeBaseTemplateView.h */; };
+		7AD4EBCB2428CD290092FCC6 /* HomeRankTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB992428CD290092FCC6 /* HomeRankTableViewCell.m */; };
+		7AD4EBCC2428CD290092FCC6 /* HomeBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB9A2428CD290092FCC6 /* HomeBannerCollectionViewCell.m */; };
+		7AD4EBCD2428CD290092FCC6 /* HomeBannerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB9B2428CD290092FCC6 /* HomeBannerCell.h */; };
+		7AD4EBCE2428CD290092FCC6 /* HomeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB9C2428CD290092FCC6 /* HomeTableViewCell.h */; };
+		7AD4EBCF2428CD290092FCC6 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB9D2428CD290092FCC6 /* HomeCollectionViewCell.m */; };
+		7AD4EBD02428CD290092FCC6 /* HomeOneBigTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD4EB9E2428CD290092FCC6 /* HomeOneBigTableViewCell.h */; };
+		7AD4EBD12428CD290092FCC6 /* HomeBannerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4EB9F2428CD290092FCC6 /* HomeBannerTableViewCell.m */; };
+		7AD4EBD22428CD290092FCC6 /* HomeOneBigTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD4EBA02428CD290092FCC6 /* HomeOneBigTableViewCell.xib */; };
+		7F90F332D6A18ACF798CB3E2F3B9D1B7 /* Pods-LGHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF8F65222D3D7DE82D69980F6CC74E6 /* Pods-LGHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9889CB1553BCFAB768D2D77C2205AEB1 /* LGHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD7311164B7A71ED1FEB4C9551AD6A6 /* LGHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AF9E663888B7B0AC3A4CF26988A721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A931F4E144346260EEABC59BBBB19AF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ECEA4AC804D9221A22D5166B1471F3E1 /* Pods-LGHomeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D83695E8FF3C76D81C90C9F4993CF /* Pods-LGHomeModule_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AD2F189B1C827ED0C39DE82DDB83E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F35443640AE3B2A0CD21B7BA2041DB9;
+			remoteInfo = LGHomeModule;
+		};
+		AAA1ABF16B8A4A1814E99615F217E162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D8BBFDA598281156B2782159E88481F;
+			remoteInfo = "Pods-LGHomeModule_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AD10D5EFF7BA9732738728A2D936F6 /* LGHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0815CBF04FCDAD934DED3682C5F08012 /* Pods-LGHomeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGHomeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AB8C353D58F4314A3A185DF97039493 /* Pods-LGHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0F81F062C519F33F94FC3EE117D7D1AD /* Pods-LGHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGHomeModule_Example.modulemap"; sourceTree = "<group>"; };
+		2484899ED9781025FED874877C2C8EF0 /* Pods_LGHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGHomeModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D13CA80496A8A67B51D9475C83829D /* Pods-LGHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2DF47BF2B514EA5146CCBEC436216767 /* LGHomeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGHomeModule-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48414757EC215326B1478423040B88FC /* Pods-LGHomeModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGHomeModule_Tests.modulemap"; sourceTree = "<group>"; };
+		5BF8F65222D3D7DE82D69980F6CC74E6 /* Pods-LGHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		687085C6A6243705290DA0CFC824E5BC /* LGHomeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGHomeModule.debug.xcconfig; sourceTree = "<group>"; };
+		6AC8BF3EDC2D784B6FAF37B58DAE7C28 /* Pods-LGHomeModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGHomeModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DFE333155D53AEFBE3B1F1504CAD0C3 /* Pods-LGHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7811DD878166D1513E4DF0FE8499FEF3 /* LGHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGHomeModule.modulemap; sourceTree = "<group>"; };
+		7AD4EB6C2428CD290092FCC6 /* LGResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGResponse.m; sourceTree = "<group>"; };
+		7AD4EB6D2428CD290092FCC6 /* HomeTableViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewProxy.m; sourceTree = "<group>"; };
+		7AD4EB6E2428CD290092FCC6 /* HomeTableViewDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewDefines.h; sourceTree = "<group>"; };
+		7AD4EB6F2428CD290092FCC6 /* HomeTableViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewProxy.h; sourceTree = "<group>"; };
+		7AD4EB702428CD290092FCC6 /* LGResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGResponse.h; sourceTree = "<group>"; };
+		7AD4EB722428CD290092FCC6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7AD4EB732428CD290092FCC6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7AD4EB752428CD290092FCC6 /* HomeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataSource.m; sourceTree = "<group>"; };
+		7AD4EB762428CD290092FCC6 /* Home_TableView_Response_12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_TableView_Response_12.json; sourceTree = "<group>"; };
+		7AD4EB772428CD290092FCC6 /* Home_TableView_Response_13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_TableView_Response_13.json; sourceTree = "<group>"; };
+		7AD4EB782428CD290092FCC6 /* HomeTemplateResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTemplateResponse.h; sourceTree = "<group>"; };
+		7AD4EB792428CD290092FCC6 /* Home_TableView_Response_14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_TableView_Response_14.json; sourceTree = "<group>"; };
+		7AD4EB7A2428CD290092FCC6 /* Home_TableView_Response_15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_TableView_Response_15.json; sourceTree = "<group>"; };
+		7AD4EB7B2428CD290092FCC6 /* HomeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataSource.h; sourceTree = "<group>"; };
+		7AD4EB7C2428CD290092FCC6 /* HomeTemplateResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTemplateResponse.m; sourceTree = "<group>"; };
+		7AD4EB7D2428CD290092FCC6 /* Home_TableView_Response_11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_TableView_Response_11.json; sourceTree = "<group>"; };
+		7AD4EB7E2428CD290092FCC6 /* Home_Channel_List.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home_Channel_List.json; sourceTree = "<group>"; };
+		7AD4EB802428CD290092FCC6 /* HomeBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBannerTableViewCell.xib; sourceTree = "<group>"; };
+		7AD4EB812428CD290092FCC6 /* HomeTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTwoTableViewCell.m; sourceTree = "<group>"; };
+		7AD4EB822428CD290092FCC6 /* HomeRankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeRankTableViewCell.xib; sourceTree = "<group>"; };
+		7AD4EB832428CD290092FCC6 /* HomeChangeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeChangeTableViewCell.h; sourceTree = "<group>"; };
+		7AD4EB842428CD290092FCC6 /* HomeBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBannerCell.m; sourceTree = "<group>"; };
+		7AD4EB852428CD290092FCC6 /* HomeBaseTemplateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBaseTemplateView.xib; sourceTree = "<group>"; };
+		7AD4EB862428CD290092FCC6 /* HomeBannerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		7AD4EB872428CD290092FCC6 /* HomeBaseTemplateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBaseTemplateView.m; sourceTree = "<group>"; };
+		7AD4EB882428CD290092FCC6 /* HomeRankTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeRankTableViewCell.h; sourceTree = "<group>"; };
+		7AD4EB892428CD290092FCC6 /* HomeTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTitleTableViewCell.xib; sourceTree = "<group>"; };
+		7AD4EB8A2428CD290092FCC6 /* HomeTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTitleTableViewCell.h; sourceTree = "<group>"; };
+		7AD4EB8B2428CD290092FCC6 /* HomeTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTitleCell.h; sourceTree = "<group>"; };
+		7AD4EB8C2428CD290092FCC6 /* HomeBannerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerTableViewCell.h; sourceTree = "<group>"; };
+		7AD4EB8D2428CD290092FCC6 /* HomeOneBigTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeOneBigTableViewCell.m; sourceTree = "<group>"; };
+		7AD4EB8E2428CD290092FCC6 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		7AD4EB8F2428CD290092FCC6 /* LGTableViewDataConfigProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGTableViewDataConfigProtocol.h; sourceTree = "<group>"; };
+		7AD4EB902428CD290092FCC6 /* HomeBannerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		7AD4EB912428CD290092FCC6 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		7AD4EB922428CD290092FCC6 /* HomeChangeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeChangeTableViewCell.m; sourceTree = "<group>"; };
+		7AD4EB932428CD290092FCC6 /* HomeTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTwoTableViewCell.h; sourceTree = "<group>"; };
+		7AD4EB942428CD290092FCC6 /* HomeTwoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTwoTableViewCell.xib; sourceTree = "<group>"; };
+		7AD4EB952428CD290092FCC6 /* HomeChangeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeChangeTableViewCell.xib; sourceTree = "<group>"; };
+		7AD4EB962428CD290092FCC6 /* HomeTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTitleCell.m; sourceTree = "<group>"; };
+		7AD4EB972428CD290092FCC6 /* HomeTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTitleTableViewCell.m; sourceTree = "<group>"; };
+		7AD4EB982428CD290092FCC6 /* HomeBaseTemplateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBaseTemplateView.h; sourceTree = "<group>"; };
+		7AD4EB992428CD290092FCC6 /* HomeRankTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeRankTableViewCell.m; sourceTree = "<group>"; };
+		7AD4EB9A2428CD290092FCC6 /* HomeBannerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		7AD4EB9B2428CD290092FCC6 /* HomeBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerCell.h; sourceTree = "<group>"; };
+		7AD4EB9C2428CD290092FCC6 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		7AD4EB9D2428CD290092FCC6 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		7AD4EB9E2428CD290092FCC6 /* HomeOneBigTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeOneBigTableViewCell.h; sourceTree = "<group>"; };
+		7AD4EB9F2428CD290092FCC6 /* HomeBannerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBannerTableViewCell.m; sourceTree = "<group>"; };
+		7AD4EBA02428CD290092FCC6 /* HomeOneBigTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeOneBigTableViewCell.xib; sourceTree = "<group>"; };
+		7BD7311164B7A71ED1FEB4C9551AD6A6 /* LGHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGHomeModule-umbrella.h"; sourceTree = "<group>"; };
+		87BA6F508205510FD3B8A570320E98F8 /* Pods_LGHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D83695E8FF3C76D81C90C9F4993CF /* Pods-LGHomeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGHomeModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BCCF7BDA7E98B26DDFC72CE231CD6D /* LGHomeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGHomeModule.release.xcconfig; sourceTree = "<group>"; };
+		A29EAFF9C3904EC3BE114E497A979CCA /* Pods-LGHomeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGHomeModule_Example-dummy.m"; sourceTree = "<group>"; };
+		A94254144931324133822433C31AE67B /* Pods-LGHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		AAEF9CDAAF4C3F5FE32A019DE0B34DDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B6B8C3A1E81691115884B1FCE427CBD6 /* Pods-LGHomeModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGHomeModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		D6AFD21FC1582F9AC8238194B5B8A51E /* Pods-LGHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D722219B138C748E0A64FA0949EDACE4 /* LGHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGHomeModule-prefix.pch"; sourceTree = "<group>"; };
+		E1AF48F6D63B50AD61F18EDE116BF3C6 /* Pods-LGHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E44AC108D1D876E2901225E9FB0C55FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E79B403F82B762BC5961C8500C6DD48E /* Pods-LGHomeModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGHomeModule_Example-Info.plist"; sourceTree = "<group>"; };
+		EDDD808B84C3BB16F2707932CCB912DF /* Pods-LGHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC9921A1668CB2CCA0276286269B60D /* LGHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGHomeModule-dummy.m"; sourceTree = "<group>"; };
+		F2C2C403F99D675B8E09620F4C09FD01 /* LGHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LGHomeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF752BB1BA7C46D68AA98342F4536827 /* Pods-LGHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C2E4813EA3A62C5662A22893DDD5D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62457CE4B21A4AB4B8964E25AE13E2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0BECB20EBA410A462534BDD07C0375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A931F4E144346260EEABC59BBBB19AF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A00630E615B00CC02E1E9AF9322A67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AF9E663888B7B0AC3A4CF26988A721 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8B69569AF555A98727C72B9CF7F7A2 /* Pods-LGHomeModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				48414757EC215326B1478423040B88FC /* Pods-LGHomeModule_Tests.modulemap */,
+				D6AFD21FC1582F9AC8238194B5B8A51E /* Pods-LGHomeModule_Tests-acknowledgements.markdown */,
+				6AC8BF3EDC2D784B6FAF37B58DAE7C28 /* Pods-LGHomeModule_Tests-acknowledgements.plist */,
+				904D83695E8FF3C76D81C90C9F4993CF /* Pods-LGHomeModule_Tests-dummy.m */,
+				B6B8C3A1E81691115884B1FCE427CBD6 /* Pods-LGHomeModule_Tests-Info.plist */,
+				5BF8F65222D3D7DE82D69980F6CC74E6 /* Pods-LGHomeModule_Tests-umbrella.h */,
+				EDDD808B84C3BB16F2707932CCB912DF /* Pods-LGHomeModule_Tests.debug.xcconfig */,
+				FF752BB1BA7C46D68AA98342F4536827 /* Pods-LGHomeModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGHomeModule_Tests";
+			path = "Target Support Files/Pods-LGHomeModule_Tests";
+			sourceTree = "<group>";
+		};
+		141D0F4512DBDDBE199DE7E372ED16AE /* Pods-LGHomeModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0F81F062C519F33F94FC3EE117D7D1AD /* Pods-LGHomeModule_Example.modulemap */,
+				6DFE333155D53AEFBE3B1F1504CAD0C3 /* Pods-LGHomeModule_Example-acknowledgements.markdown */,
+				0815CBF04FCDAD934DED3682C5F08012 /* Pods-LGHomeModule_Example-acknowledgements.plist */,
+				A29EAFF9C3904EC3BE114E497A979CCA /* Pods-LGHomeModule_Example-dummy.m */,
+				E1AF48F6D63B50AD61F18EDE116BF3C6 /* Pods-LGHomeModule_Example-frameworks.sh */,
+				E79B403F82B762BC5961C8500C6DD48E /* Pods-LGHomeModule_Example-Info.plist */,
+				A94254144931324133822433C31AE67B /* Pods-LGHomeModule_Example-umbrella.h */,
+				0AB8C353D58F4314A3A185DF97039493 /* Pods-LGHomeModule_Example.debug.xcconfig */,
+				25D13CA80496A8A67B51D9475C83829D /* Pods-LGHomeModule_Example.release.xcconfig */,
+			);
+			name = "Pods-LGHomeModule_Example";
+			path = "Target Support Files/Pods-LGHomeModule_Example";
+			sourceTree = "<group>";
+		};
+		3BECCFD224ACF180EF10329900CD721E /* LGHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4EB6A2428CD290092FCC6 /* Home */,
+				4331E2C56FC945D59DFF6913989B56D4 /* Pod */,
+				5047FE39FBB1CB71F773887967AC3AE2 /* Support Files */,
+			);
+			name = LGHomeModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4331E2C56FC945D59DFF6913989B56D4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2C403F99D675B8E09620F4C09FD01 /* LGHomeModule.podspec */,
+				E44AC108D1D876E2901225E9FB0C55FE /* LICENSE */,
+				AAEF9CDAAF4C3F5FE32A019DE0B34DDD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5047FE39FBB1CB71F773887967AC3AE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7811DD878166D1513E4DF0FE8499FEF3 /* LGHomeModule.modulemap */,
+				EFC9921A1668CB2CCA0276286269B60D /* LGHomeModule-dummy.m */,
+				2DF47BF2B514EA5146CCBEC436216767 /* LGHomeModule-Info.plist */,
+				D722219B138C748E0A64FA0949EDACE4 /* LGHomeModule-prefix.pch */,
+				7BD7311164B7A71ED1FEB4C9551AD6A6 /* LGHomeModule-umbrella.h */,
+				687085C6A6243705290DA0CFC824E5BC /* LGHomeModule.debug.xcconfig */,
+				A1BCCF7BDA7E98B26DDFC72CE231CD6D /* LGHomeModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGHomeModule";
+			sourceTree = "<group>";
+		};
+		7AD4EB6A2428CD290092FCC6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4EB6B2428CD290092FCC6 /* Models */,
+				7AD4EB712428CD290092FCC6 /* Controllers */,
+				7AD4EB742428CD290092FCC6 /* Data */,
+				7AD4EB7F2428CD290092FCC6 /* Views */,
+			);
+			name = Home;
+			path = LGHomeModule/Classes/Home;
+			sourceTree = "<group>";
+		};
+		7AD4EB6B2428CD290092FCC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4EB6C2428CD290092FCC6 /* LGResponse.m */,
+				7AD4EB6D2428CD290092FCC6 /* HomeTableViewProxy.m */,
+				7AD4EB6E2428CD290092FCC6 /* HomeTableViewDefines.h */,
+				7AD4EB6F2428CD290092FCC6 /* HomeTableViewProxy.h */,
+				7AD4EB702428CD290092FCC6 /* LGResponse.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AD4EB712428CD290092FCC6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4EB722428CD290092FCC6 /* HomeViewController.m */,
+				7AD4EB732428CD290092FCC6 /* HomeViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7AD4EB742428CD290092FCC6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4EB752428CD290092FCC6 /* HomeDataSource.m */,
+				7AD4EB762428CD290092FCC6 /* Home_TableView_Response_12.json */,
+				7AD4EB772428CD290092FCC6 /* Home_TableView_Response_13.json */,
+				7AD4EB782428CD290092FCC6 /* HomeTemplateResponse.h */,
+				7AD4EB792428CD290092FCC6 /* Home_TableView_Response_14.json */,
+				7AD4EB7A2428CD290092FCC6 /* Home_TableView_Response_15.json */,
+				7AD4EB7B2428CD290092FCC6 /* HomeDataSource.h */,
+				7AD4EB7C2428CD290092FCC6 /* HomeTemplateResponse.m */,
+				7AD4EB7D2428CD290092FCC6 /* Home_TableView_Response_11.json */,
+				7AD4EB7E2428CD290092FCC6 /* Home_Channel_List.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7AD4EB7F2428CD290092FCC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AD4EB802428CD290092FCC6 /* HomeBannerTableViewCell.xib */,
+				7AD4EB812428CD290092FCC6 /* HomeTwoTableViewCell.m */,
+				7AD4EB822428CD290092FCC6 /* HomeRankTableViewCell.xib */,
+				7AD4EB832428CD290092FCC6 /* HomeChangeTableViewCell.h */,
+				7AD4EB842428CD290092FCC6 /* HomeBannerCell.m */,
+				7AD4EB852428CD290092FCC6 /* HomeBaseTemplateView.xib */,
+				7AD4EB862428CD290092FCC6 /* HomeBannerCollectionViewCell.h */,
+				7AD4EB872428CD290092FCC6 /* HomeBaseTemplateView.m */,
+				7AD4EB882428CD290092FCC6 /* HomeRankTableViewCell.h */,
+				7AD4EB892428CD290092FCC6 /* HomeTitleTableViewCell.xib */,
+				7AD4EB8A2428CD290092FCC6 /* HomeTitleTableViewCell.h */,
+				7AD4EB8B2428CD290092FCC6 /* HomeTitleCell.h */,
+				7AD4EB8C2428CD290092FCC6 /* HomeBannerTableViewCell.h */,
+				7AD4EB8D2428CD290092FCC6 /* HomeOneBigTableViewCell.m */,
+				7AD4EB8E2428CD290092FCC6 /* HomeCollectionViewCell.h */,
+				7AD4EB8F2428CD290092FCC6 /* LGTableViewDataConfigProtocol.h */,
+				7AD4EB902428CD290092FCC6 /* HomeBannerCollectionViewCell.xib */,
+				7AD4EB912428CD290092FCC6 /* HomeTableViewCell.m */,
+				7AD4EB922428CD290092FCC6 /* HomeChangeTableViewCell.m */,
+				7AD4EB932428CD290092FCC6 /* HomeTwoTableViewCell.h */,
+				7AD4EB942428CD290092FCC6 /* HomeTwoTableViewCell.xib */,
+				7AD4EB952428CD290092FCC6 /* HomeChangeTableViewCell.xib */,
+				7AD4EB962428CD290092FCC6 /* HomeTitleCell.m */,
+				7AD4EB972428CD290092FCC6 /* HomeTitleTableViewCell.m */,
+				7AD4EB982428CD290092FCC6 /* HomeBaseTemplateView.h */,
+				7AD4EB992428CD290092FCC6 /* HomeRankTableViewCell.m */,
+				7AD4EB9A2428CD290092FCC6 /* HomeBannerCollectionViewCell.m */,
+				7AD4EB9B2428CD290092FCC6 /* HomeBannerCell.h */,
+				7AD4EB9C2428CD290092FCC6 /* HomeTableViewCell.h */,
+				7AD4EB9D2428CD290092FCC6 /* HomeCollectionViewCell.m */,
+				7AD4EB9E2428CD290092FCC6 /* HomeOneBigTableViewCell.h */,
+				7AD4EB9F2428CD290092FCC6 /* HomeBannerTableViewCell.m */,
+				7AD4EBA02428CD290092FCC6 /* HomeOneBigTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C9C60F1DB14866EDA9DA430ADB93C90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				141D0F4512DBDDBE199DE7E372ED16AE /* Pods-LGHomeModule_Example */,
+				0D8B69569AF555A98727C72B9CF7F7A2 /* Pods-LGHomeModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A07AB04E9D2A49DA5B3CFE0C565CF32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AD10D5EFF7BA9732738728A2D936F6 /* LGHomeModule.framework */,
+				87BA6F508205510FD3B8A570320E98F8 /* Pods_LGHomeModule_Example.framework */,
+				2484899ED9781025FED874877C2C8EF0 /* Pods_LGHomeModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D40332E5692B1975DAC3DC30A8955670 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9A07AB04E9D2A49DA5B3CFE0C565CF32 /* Products */,
+				8C9C60F1DB14866EDA9DA430ADB93C90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D40332E5692B1975DAC3DC30A8955670 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BECCFD224ACF180EF10329900CD721E /* LGHomeModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D2D77F0ED0F26F23D3EC974F5EE3E6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90F332D6A18ACF798CB3E2F3B9D1B7 /* Pods-LGHomeModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D442D11E1B0F4187658C743ADCBA5F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD4EBA52428CD290092FCC6 /* LGResponse.h in Headers */,
+				7AD4EBB52428CD290092FCC6 /* HomeChangeTableViewCell.h in Headers */,
+				7AD4EBC52428CD290092FCC6 /* HomeTwoTableViewCell.h in Headers */,
+				7AD4EBCD2428CD290092FCC6 /* HomeBannerCell.h in Headers */,
+				7AD4EBCE2428CD290092FCC6 /* HomeTableViewCell.h in Headers */,
+				7AD4EBA32428CD290092FCC6 /* HomeTableViewDefines.h in Headers */,
+				7AD4EBA42428CD290092FCC6 /* HomeTableViewProxy.h in Headers */,
+				7AD4EBCA2428CD290092FCC6 /* HomeBaseTemplateView.h in Headers */,
+				7AD4EBBC2428CD290092FCC6 /* HomeTitleTableViewCell.h in Headers */,
+				7AD4EBC12428CD290092FCC6 /* LGTableViewDataConfigProtocol.h in Headers */,
+				7AD4EBA72428CD290092FCC6 /* HomeViewController.h in Headers */,
+				7AD4EBBE2428CD290092FCC6 /* HomeBannerTableViewCell.h in Headers */,
+				7AD4EBBA2428CD290092FCC6 /* HomeRankTableViewCell.h in Headers */,
+				7AD4EBC02428CD290092FCC6 /* HomeCollectionViewCell.h in Headers */,
+				7AD4EBB82428CD290092FCC6 /* HomeBannerCollectionViewCell.h in Headers */,
+				7AD4EBD02428CD290092FCC6 /* HomeOneBigTableViewCell.h in Headers */,
+				7AD4EBBD2428CD290092FCC6 /* HomeTitleCell.h in Headers */,
+				7AD4EBAB2428CD290092FCC6 /* HomeTemplateResponse.h in Headers */,
+				9889CB1553BCFAB768D2D77C2205AEB1 /* LGHomeModule-umbrella.h in Headers */,
+				7AD4EBAE2428CD290092FCC6 /* HomeDataSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342260CD2EE185686D2CF0618EB15C03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBFABB268055BF872D371D09828E8E /* Pods-LGHomeModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D8BBFDA598281156B2782159E88481F /* Pods-LGHomeModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4490F89113527C674C72042ECC1986 /* Build configuration list for PBXNativeTarget "Pods-LGHomeModule_Example" */;
+			buildPhases = (
+				342260CD2EE185686D2CF0618EB15C03 /* Headers */,
+				AB8000E85867EE77396EFAAD0D107F46 /* Sources */,
+				0C2E4813EA3A62C5662A22893DDD5D61 /* Frameworks */,
+				2062D54E80F7CFBD650C2D61C94403B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B444E60F8656F25282BC8A05B6E0F0C /* PBXTargetDependency */,
+			);
+			name = "Pods-LGHomeModule_Example";
+			productName = "Pods-LGHomeModule_Example";
+			productReference = 87BA6F508205510FD3B8A570320E98F8 /* Pods_LGHomeModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0F35443640AE3B2A0CD21B7BA2041DB9 /* LGHomeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020C2F269DE67C149003F30001F8B8C4 /* Build configuration list for PBXNativeTarget "LGHomeModule" */;
+			buildPhases = (
+				1D442D11E1B0F4187658C743ADCBA5F0 /* Headers */,
+				1880BF16EB7668152E2B7B1D0CFF4A8C /* Sources */,
+				9A00630E615B00CC02E1E9AF9322A67F /* Frameworks */,
+				2571174A13D54E1519B299F8A85F98BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGHomeModule;
+			productName = LGHomeModule;
+			productReference = 04AD10D5EFF7BA9732738728A2D936F6 /* LGHomeModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC759EB71A0A85CF7C18A73E39F8F53E /* Pods-LGHomeModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5C1B38884E705D4A67515C28990898 /* Build configuration list for PBXNativeTarget "Pods-LGHomeModule_Tests" */;
+			buildPhases = (
+				1D2D77F0ED0F26F23D3EC974F5EE3E6C /* Headers */,
+				F36848C4687F07E6A0CC76BD7B856253 /* Sources */,
+				3B0BECB20EBA410A462534BDD07C0375 /* Frameworks */,
+				E63F1AAEA62CEE997C4B8AC34B534E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCD1946C0CC903E545F5E330686EA27 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGHomeModule_Tests";
+			productName = "Pods-LGHomeModule_Tests";
+			productReference = 2484899ED9781025FED874877C2C8EF0 /* Pods_LGHomeModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9A07AB04E9D2A49DA5B3CFE0C565CF32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F35443640AE3B2A0CD21B7BA2041DB9 /* LGHomeModule */,
+				0D8BBFDA598281156B2782159E88481F /* Pods-LGHomeModule_Example */,
+				EC759EB71A0A85CF7C18A73E39F8F53E /* Pods-LGHomeModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2062D54E80F7CFBD650C2D61C94403B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2571174A13D54E1519B299F8A85F98BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD4EBA92428CD290092FCC6 /* Home_TableView_Response_12.json in Resources */,
+				7AD4EBBB2428CD290092FCC6 /* HomeTitleTableViewCell.xib in Resources */,
+				7AD4EBAD2428CD290092FCC6 /* Home_TableView_Response_15.json in Resources */,
+				7AD4EBC62428CD290092FCC6 /* HomeTwoTableViewCell.xib in Resources */,
+				7AD4EBB72428CD290092FCC6 /* HomeBaseTemplateView.xib in Resources */,
+				7AD4EBB42428CD290092FCC6 /* HomeRankTableViewCell.xib in Resources */,
+				7AD4EBB12428CD290092FCC6 /* Home_Channel_List.json in Resources */,
+				7AD4EBC72428CD290092FCC6 /* HomeChangeTableViewCell.xib in Resources */,
+				7AD4EBC22428CD290092FCC6 /* HomeBannerCollectionViewCell.xib in Resources */,
+				7AD4EBAC2428CD290092FCC6 /* Home_TableView_Response_14.json in Resources */,
+				7AD4EBD22428CD290092FCC6 /* HomeOneBigTableViewCell.xib in Resources */,
+				7AD4EBB02428CD290092FCC6 /* Home_TableView_Response_11.json in Resources */,
+				7AD4EBAA2428CD290092FCC6 /* Home_TableView_Response_13.json in Resources */,
+				7AD4EBB22428CD290092FCC6 /* HomeBannerTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63F1AAEA62CEE997C4B8AC34B534E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1880BF16EB7668152E2B7B1D0CFF4A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD4EBBF2428CD290092FCC6 /* HomeOneBigTableViewCell.m in Sources */,
+				7AD4EBC92428CD290092FCC6 /* HomeTitleTableViewCell.m in Sources */,
+				7AD4EBB92428CD290092FCC6 /* HomeBaseTemplateView.m in Sources */,
+				7AD4EBCF2428CD290092FCC6 /* HomeCollectionViewCell.m in Sources */,
+				75C9E7DBF75A3FAAC4922FB876C540E0 /* LGHomeModule-dummy.m in Sources */,
+				7AD4EBC82428CD290092FCC6 /* HomeTitleCell.m in Sources */,
+				7AD4EBC32428CD290092FCC6 /* HomeTableViewCell.m in Sources */,
+				7AD4EBB32428CD290092FCC6 /* HomeTwoTableViewCell.m in Sources */,
+				7AD4EBB62428CD290092FCC6 /* HomeBannerCell.m in Sources */,
+				7AD4EBC42428CD290092FCC6 /* HomeChangeTableViewCell.m in Sources */,
+				7AD4EBD12428CD290092FCC6 /* HomeBannerTableViewCell.m in Sources */,
+				7AD4EBA82428CD290092FCC6 /* HomeDataSource.m in Sources */,
+				7AD4EBCB2428CD290092FCC6 /* HomeRankTableViewCell.m in Sources */,
+				7AD4EBA12428CD290092FCC6 /* LGResponse.m in Sources */,
+				7AD4EBA22428CD290092FCC6 /* HomeTableViewProxy.m in Sources */,
+				7AD4EBA62428CD290092FCC6 /* HomeViewController.m in Sources */,
+				7AD4EBAF2428CD290092FCC6 /* HomeTemplateResponse.m in Sources */,
+				7AD4EBCC2428CD290092FCC6 /* HomeBannerCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8000E85867EE77396EFAAD0D107F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6669A956B5E5C16F88F4C28DA13E0DE6 /* Pods-LGHomeModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36848C4687F07E6A0CC76BD7B856253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEA4AC804D9221A22D5166B1471F3E1 /* Pods-LGHomeModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B444E60F8656F25282BC8A05B6E0F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGHomeModule;
+			target = 0F35443640AE3B2A0CD21B7BA2041DB9 /* LGHomeModule */;
+			targetProxy = 4AD2F189B1C827ED0C39DE82DDB83E8D /* PBXContainerItemProxy */;
+		};
+		EDCD1946C0CC903E545F5E330686EA27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGHomeModule_Example";
+			target = 0D8BBFDA598281156B2782159E88481F /* Pods-LGHomeModule_Example */;
+			targetProxy = AAA1ABF16B8A4A1814E99615F217E162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BAE917E66BDF7A9542ADC833E93F6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D13CA80496A8A67B51D9475C83829D /* Pods-LGHomeModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGHomeModule_Example/Pods-LGHomeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGHomeModule_Example/Pods-LGHomeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F61FBDEE2495D13D9FC5551665F3840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BCCF7BDA7E98B26DDFC72CE231CD6D /* LGHomeModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGHomeModule/LGHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGHomeModule/LGHomeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGHomeModule/LGHomeModule.modulemap";
+				PRODUCT_MODULE_NAME = LGHomeModule;
+				PRODUCT_NAME = LGHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		255A3D6EA8883A51F0DFAF56591413CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB8C353D58F4314A3A185DF97039493 /* Pods-LGHomeModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGHomeModule_Example/Pods-LGHomeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGHomeModule_Example/Pods-LGHomeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4C90D2D8EE1D7E52E5E945B320AAAB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF752BB1BA7C46D68AA98342F4536827 /* Pods-LGHomeModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGHomeModule_Tests/Pods-LGHomeModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGHomeModule_Tests/Pods-LGHomeModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8386A8D01CC92D022C70DB44ACAACAD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687085C6A6243705290DA0CFC824E5BC /* LGHomeModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGHomeModule/LGHomeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGHomeModule/LGHomeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGHomeModule/LGHomeModule.modulemap";
+				PRODUCT_MODULE_NAME = LGHomeModule;
+				PRODUCT_NAME = LGHomeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BCE23630C65B6B0BD09AB8B13E30602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDD808B84C3BB16F2707932CCB912DF /* Pods-LGHomeModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGHomeModule_Tests/Pods-LGHomeModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGHomeModule_Tests/Pods-LGHomeModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020C2F269DE67C149003F30001F8B8C4 /* Build configuration list for PBXNativeTarget "LGHomeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8386A8D01CC92D022C70DB44ACAACAD9 /* Debug */,
+				0F61FBDEE2495D13D9FC5551665F3840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5C1B38884E705D4A67515C28990898 /* Build configuration list for PBXNativeTarget "Pods-LGHomeModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCE23630C65B6B0BD09AB8B13E30602 /* Debug */,
+				4C90D2D8EE1D7E52E5E945B320AAAB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4490F89113527C674C72042ECC1986 /* Build configuration list for PBXNativeTarget "Pods-LGHomeModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255A3D6EA8883A51F0DFAF56591413CB /* Debug */,
+				0BAE917E66BDF7A9542ADC833E93F6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

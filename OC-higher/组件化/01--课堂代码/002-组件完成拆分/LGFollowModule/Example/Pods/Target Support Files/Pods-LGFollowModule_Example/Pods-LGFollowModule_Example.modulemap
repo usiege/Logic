@@ -1,0 +1,6 @@
+framework module Pods_LGFollowModule_Example {
+  umbrella header "Pods-LGFollowModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

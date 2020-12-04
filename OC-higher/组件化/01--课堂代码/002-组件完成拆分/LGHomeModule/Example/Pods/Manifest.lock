@@ -1,0 +1,16 @@
+PODS:
+  - LGHomeModule (0.1.0)
+
+DEPENDENCIES:
+  - LGHomeModule (from `../`)
+
+EXTERNAL SOURCES:
+  LGHomeModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LGHomeModule: 7f422522efe66d4c35083dbb7b2b7e74fa7988fe
+
+PODFILE CHECKSUM: d671a0d4452f9d73faae5becbd18cf35afef431d
+
+COCOAPODS: 1.9.0.beta.2

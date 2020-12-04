@@ -1,0 +1,40 @@
+{
+    "code":200,
+    "msg":"",
+    "data":[
+            {
+            "templateName":"one",
+            "templateData":[
+                            {
+                            "img":"http://oss.mooncdn.cn/201801/29/20180129152704123029468.png",
+                            "title":"潭州教育宣传片",
+                            "subTitle":"",
+                            "videoId":""
+                            },
+                            ],
+            },
+            {
+            "templateName":"one",
+            "templateData":[
+                            {
+                            "img":"http://oss.mooncdn.cn/201803/28/20180328135904120561775.png",
+                            "title":"潭州讲师的价值观",
+                            "subTitle":"",
+                            "videoId":""
+                            },
+                            ],
+            },
+            {
+            "templateName":"one",
+            "templateData":[
+                            {
+                            "img":"http://oss.mooncdn.cn/201803/28/20180328143506783185285.png",
+                            "title":"让天下没有难开的网店",
+                            "subTitle":"",
+                            "videoId":""
+                            },
+                            ],
+            },
+                        ],
+}
+
