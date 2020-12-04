@@ -1,0 +1,16 @@
+PODS:
+  - LGFollowModule (0.1.0)
+
+DEPENDENCIES:
+  - LGFollowModule (from `../`)
+
+EXTERNAL SOURCES:
+  LGFollowModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LGFollowModule: cc80b3210f8b3f6f109608e9c7fc43536b7a73a1
+
+PODFILE CHECKSUM: 71a6c4af412402b43f40faf9058b45f418d7468e
+
+COCOAPODS: 1.9.0.beta.2

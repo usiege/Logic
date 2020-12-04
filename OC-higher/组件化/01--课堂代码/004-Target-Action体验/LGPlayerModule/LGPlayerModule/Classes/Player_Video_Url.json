@@ -1,0 +1,19 @@
+{
+    "code":200,
+    "msg":"",
+    "data":[
+            {
+            "definition":"1080P",
+            "url":"http://flv2.bn.netease.com/videolib3/1604/28/fVobI0704/SD/fVobI0704-mobile.mp4"
+            },
+            {"definition":"720P",
+            "url":"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_1280x720.m4v"
+            },
+            {"definition":"480P",
+            "url":"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_853x480.m4v"
+            },
+            {"definition":"360P",
+            "url":"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_640x360.m4v"
+            }
+            ],
+}

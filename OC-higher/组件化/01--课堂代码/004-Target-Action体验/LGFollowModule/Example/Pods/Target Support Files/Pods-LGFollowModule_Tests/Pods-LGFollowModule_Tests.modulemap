@@ -1,0 +1,6 @@
+framework module Pods_LGFollowModule_Tests {
+  umbrella header "Pods-LGFollowModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

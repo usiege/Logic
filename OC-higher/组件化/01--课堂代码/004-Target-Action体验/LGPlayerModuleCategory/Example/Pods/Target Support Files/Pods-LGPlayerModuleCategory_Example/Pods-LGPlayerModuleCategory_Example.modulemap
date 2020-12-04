@@ -1,0 +1,6 @@
+framework module Pods_LGPlayerModuleCategory_Example {
+  umbrella header "Pods-LGPlayerModuleCategory_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
