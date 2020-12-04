@@ -1,0 +1,102 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.4)
+  - JSONModel (1.8.0)
+  - LGCommonUIModule (0.1.0):
+    - AFNetworking
+    - LGCommonUIModule/LGErrorView (= 0.1.0)
+    - LGCommonUIModule/LGLoading (= 0.1.0)
+    - LGCommonUIModule/LGSegmentedControl (= 0.1.0)
+    - LGCommonUIModule/LGShare (= 0.1.0)
+    - LGCommonUIModule/LGToast (= 0.1.0)
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGErrorView (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGLoading (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGSegmentedControl (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGShare (0.1.0):
+    - AFNetworking
+    - LGCommonUIModule/LGToast
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGToast (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGDLNAModule (0.1.0):
+    - LGMacroAndCategoryModule
+    - MRDLNA
+  - LGMacroAndCategoryModule (0.1.0)
+  - LGPlayerModule (0.1.0):
+    - JSONModel
+    - LGCommonUIModule
+    - LGDLNAModule
+    - Masonry
+  - Masonry (1.1.0)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - LGCommonUIModule (from `../../LGCommonUIModule`)
+  - LGDLNAModule (from `../../LGDLNAModule`)
+  - LGMacroAndCategoryModule (from `../../LGMacroAndCategoryModule`)
+  - LGPlayerModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - JSONModel
+    - Masonry
+    - MRDLNA
+
+EXTERNAL SOURCES:
+  LGCommonUIModule:
+    :path: "../../LGCommonUIModule"
+  LGDLNAModule:
+    :path: "../../LGDLNAModule"
+  LGMacroAndCategoryModule:
+    :path: "../../LGMacroAndCategoryModule"
+  LGPlayerModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LGCommonUIModule: 38463b9c2f5607e9a8e4e4eda149a0deca0320b1
+  LGDLNAModule: 1eb73cb53e16e0c6b5f621600b9b3672b5c85743
+  LGMacroAndCategoryModule: 3f90d9c070bc77d92b54f17a26801e505adbd52e
+  LGPlayerModule: c80ecb9d8ddc4ceea1053c673e6eab854576ed3c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+
+PODFILE CHECKSUM: be39a4cd992410ef7e9d4fcc764f301b73cb4dca
+
+COCOAPODS: 1.7.0.beta.3

@@ -1,0 +1,44 @@
+{
+  "name": "LGPlayerModule",
+  "version": "0.1.0",
+  "summary": "A short description of LGPlayerModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LGKody/LGPlayerModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LGKody": "kody_logic@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LGKody/LGPlayerModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGPlayerModule/Classes/**/*",
+  "dependencies": {
+    "LGCommonUIModule": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "LGDLNAModule": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"LGMacros.h\"",
+    "#import \"Masonry.h\"",
+    "#import \"LGLoading.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"LGToast.h\"",
+    "#import \"LGShare.h\""
+  ]
+}

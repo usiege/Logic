@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (25)
+  - LGHomeModuleCategory (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - LGHomeModuleCategory (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  LGHomeModuleCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  LGHomeModuleCategory: 20904200dc9c5efd363ecb755ce3e5cc702cc8d5
+
+PODFILE CHECKSUM: f972ba550d7b1e3e8b1b50b733638683d63fb899
+
+COCOAPODS: 1.7.0.beta.3

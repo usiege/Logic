@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LGPlayerVideoInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="116.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLC-fR-JN9">
+                        <rect key="frame" x="10" y="10" width="316" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryz-1V-waj">
+                        <rect key="frame" x="10" y="32" width="316" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AjG-a0-Flg">
+                        <rect key="frame" x="10" y="66.5" width="51" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="0CU-Rx-zTt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="热评" image="pprn_comment">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbJ-dn-Mxw">
+                        <rect key="frame" x="201" y="67" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="ZPp-qE-dZD"/>
+                            <constraint firstAttribute="height" constant="40" id="pnS-AR-Lct"/>
+                        </constraints>
+                        <state key="normal" image="pprn_favorite_heart"/>
+                        <state key="selected" image="pprn_favorite_heart_active"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1H-SN-N5g">
+                        <rect key="frame" x="246" y="67.5" width="40" height="40"/>
+                        <state key="normal" image="pp_episode_head_download_can"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odx-63-Pat">
+                        <rect key="frame" x="291" y="67" width="40" height="40"/>
+                        <state key="normal" image="pprn_share"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ryz-1V-waj" secondAttribute="trailing" constant="10" id="3AP-Qm-apI"/>
+                    <constraint firstAttribute="bottom" secondItem="AjG-a0-Flg" secondAttribute="bottom" constant="10" id="61f-yM-X4q"/>
+                    <constraint firstItem="Odx-63-Pat" firstAttribute="height" secondItem="N1H-SN-N5g" secondAttribute="height" id="6eg-7e-CUe"/>
+                    <constraint firstAttribute="trailing" secondItem="HLC-fR-JN9" secondAttribute="trailing" constant="10" id="8Z0-ax-Srx"/>
+                    <constraint firstItem="AjG-a0-Flg" firstAttribute="top" secondItem="ryz-1V-waj" secondAttribute="bottom" constant="20" id="EED-JL-ZDG"/>
+                    <constraint firstItem="N1H-SN-N5g" firstAttribute="leading" secondItem="gbJ-dn-Mxw" secondAttribute="trailing" constant="5" id="Gfl-NG-45Q"/>
+                    <constraint firstItem="Odx-63-Pat" firstAttribute="width" secondItem="N1H-SN-N5g" secondAttribute="width" id="Hqa-z3-QAr"/>
+                    <constraint firstAttribute="trailing" secondItem="Odx-63-Pat" secondAttribute="trailing" constant="5" id="JJY-32-lub"/>
+                    <constraint firstItem="N1H-SN-N5g" firstAttribute="width" secondItem="gbJ-dn-Mxw" secondAttribute="width" id="K5D-YO-Kd2"/>
+                    <constraint firstItem="HLC-fR-JN9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="PvU-CG-sUz"/>
+                    <constraint firstItem="N1H-SN-N5g" firstAttribute="centerY" secondItem="gbJ-dn-Mxw" secondAttribute="centerY" id="QHO-WS-7DM"/>
+                    <constraint firstItem="HLC-fR-JN9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="TeB-tP-35g"/>
+                    <constraint firstItem="ryz-1V-waj" firstAttribute="top" secondItem="HLC-fR-JN9" secondAttribute="bottom" constant="5" id="Z2e-8k-oiZ"/>
+                    <constraint firstItem="N1H-SN-N5g" firstAttribute="height" secondItem="gbJ-dn-Mxw" secondAttribute="height" id="bQQ-xX-MaJ"/>
+                    <constraint firstItem="AjG-a0-Flg" firstAttribute="leading" secondItem="HLC-fR-JN9" secondAttribute="leading" id="fti-UW-R9v"/>
+                    <constraint firstItem="gbJ-dn-Mxw" firstAttribute="centerY" secondItem="AjG-a0-Flg" secondAttribute="centerY" id="qd1-fn-hxG"/>
+                    <constraint firstItem="Odx-63-Pat" firstAttribute="leading" secondItem="N1H-SN-N5g" secondAttribute="trailing" constant="5" id="qk7-ID-S3c"/>
+                    <constraint firstItem="Odx-63-Pat" firstAttribute="centerY" secondItem="N1H-SN-N5g" secondAttribute="centerY" id="sjv-v5-o6l"/>
+                    <constraint firstItem="ryz-1V-waj" firstAttribute="leading" secondItem="HLC-fR-JN9" secondAttribute="leading" id="uI4-ve-FQA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="commentButton" destination="AjG-a0-Flg" id="igF-6m-YeC"/>
+                <outlet property="descLabel" destination="ryz-1V-waj" id="Mgi-AZ-EhS"/>
+                <outlet property="downloadButton" destination="N1H-SN-N5g" id="8WF-dJ-p9C"/>
+                <outlet property="favButton" destination="gbJ-dn-Mxw" id="iLV-u2-KmM"/>
+                <outlet property="shareButton" destination="Odx-63-Pat" id="GqT-Tv-IRL"/>
+                <outlet property="titleLabel" destination="HLC-fR-JN9" id="ziz-mL-H2R"/>
+            </connections>
+            <point key="canvasLocation" x="-214" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pp_episode_head_download_can" width="25" height="25"/>
+        <image name="pprn_comment" width="30" height="30"/>
+        <image name="pprn_favorite_heart" width="30" height="30"/>
+        <image name="pprn_favorite_heart_active" width="30" height="30"/>
+        <image name="pprn_share" width="30" height="30"/>
+    </resources>
+</document>

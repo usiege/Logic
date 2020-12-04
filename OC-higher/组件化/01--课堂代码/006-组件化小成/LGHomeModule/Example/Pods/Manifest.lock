@@ -1,0 +1,101 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (25)
+  - JSONModel (1.8.0)
+  - LGCommonUIModule (0.1.0):
+    - AFNetworking
+    - LGCommonUIModule/LGErrorView (= 0.1.0)
+    - LGCommonUIModule/LGLoading (= 0.1.0)
+    - LGCommonUIModule/LGSegmentedControl (= 0.1.0)
+    - LGCommonUIModule/LGShare (= 0.1.0)
+    - LGCommonUIModule/LGToast (= 0.1.0)
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGErrorView (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGLoading (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGSegmentedControl (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGShare (0.1.0):
+    - AFNetworking
+    - LGCommonUIModule/LGToast
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGToast (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGHomeModule (0.1.0):
+    - AFNetworking
+    - CTMediator
+    - JSONModel
+    - LGCommonUIModule
+    - LGMacroAndCategoryModule
+    - LGPlayerModuleCategory
+    - Masonry
+    - TYCyclePagerView
+  - LGMacroAndCategoryModule (0.1.0)
+  - LGPlayerModuleCategory (0.1.0):
+    - CTMediator
+  - Masonry (1.1.0)
+  - TYCyclePagerView (1.2.0)
+
+DEPENDENCIES:
+  - LGCommonUIModule (from `../../LGCommonUIModule`)
+  - LGHomeModule (from `../`)
+  - LGMacroAndCategoryModule (from `../../LGMacroAndCategoryModule`)
+  - LGPlayerModuleCategory (from `../../LGPlayerModuleCategory`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CTMediator
+    - JSONModel
+    - Masonry
+    - TYCyclePagerView
+
+EXTERNAL SOURCES:
+  LGCommonUIModule:
+    :path: "../../LGCommonUIModule"
+  LGHomeModule:
+    :path: "../"
+  LGMacroAndCategoryModule:
+    :path: "../../LGMacroAndCategoryModule"
+  LGPlayerModuleCategory:
+    :path: "../../LGPlayerModuleCategory"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LGCommonUIModule: 791ee64996a9a31a9bc0942484490768c0047fb3
+  LGHomeModule: 4afbeaeafc8e231649cb64e250b7279febe432fe
+  LGMacroAndCategoryModule: bda298343ff55fa8af6f1aa1133dffb0e35ea3b7
+  LGPlayerModuleCategory: e0991ba55ecd589339f61e3e58aa1f123e51eaa5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+
+PODFILE CHECKSUM: 616a30cab2d6f5707b6f9bb9db64a22a2efbd6f4
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,65 @@
+{
+  "name": "LGCommonUIModule",
+  "version": "0.1.0",
+  "summary": "A short description of LGCommonUIModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cooci_tz@163.com/LGCommonUIModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cooci_tz@163.com": "cooci_tz@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cooci_tz@163.com/LGCommonUIModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGCommonUIModule/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "LGMacroAndCategoryModule": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"Masonry.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"LGMacros.h\""
+  ],
+  "subspecs": [
+    {
+      "name": "LGErrorView",
+      "source_files": "LGCommonUIModule/Classes/LGErrorView/*"
+    },
+    {
+      "name": "LGToast",
+      "source_files": "LGCommonUIModule/Classes/LGToast/*"
+    },
+    {
+      "name": "LGLoading",
+      "source_files": "LGCommonUIModule/Classes/LGLoading/*"
+    },
+    {
+      "name": "LGSegmentedControl",
+      "source_files": "LGCommonUIModule/Classes/LGSegmentedControl/*"
+    },
+    {
+      "name": "LGShare",
+      "dependencies": {
+        "LGCommonUIModule/LGToast": [
+
+        ]
+      },
+      "source_files": "LGCommonUIModule/Classes/LGShare/*"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LGHomeModuleCategory_Tests' do
+  pod 'LGHomeModuleCategory', :path => '../'
+  
+  
+end

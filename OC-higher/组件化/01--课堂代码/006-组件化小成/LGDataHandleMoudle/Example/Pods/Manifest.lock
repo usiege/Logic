@@ -1,0 +1,23 @@
+PODS:
+  - JSONModel (1.8.0)
+  - LGDataHandleMoudle (0.1.0):
+    - JSONModel
+
+DEPENDENCIES:
+  - LGDataHandleMoudle (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JSONModel
+
+EXTERNAL SOURCES:
+  LGDataHandleMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LGDataHandleMoudle: 02248a824a8291d0029dcaf9423c5224484e968e
+
+PODFILE CHECKSUM: 8eff3884e9ea8ab4a7b9d71112ef8dc08ad8c186
+
+COCOAPODS: 1.7.0.beta.3

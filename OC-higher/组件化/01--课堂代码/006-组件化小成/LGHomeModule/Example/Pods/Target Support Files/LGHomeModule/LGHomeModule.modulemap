@@ -1,0 +1,6 @@
+framework module LGHomeModule {
+  umbrella header "LGHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

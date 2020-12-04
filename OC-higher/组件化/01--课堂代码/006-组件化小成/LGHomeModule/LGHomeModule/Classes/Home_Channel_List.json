@@ -1,0 +1,9 @@
+{
+    "code":200,
+    "msg":"",
+    "data":[
+            {
+            "channelName":"推荐",
+            "channelId":11
+            }],
+}
