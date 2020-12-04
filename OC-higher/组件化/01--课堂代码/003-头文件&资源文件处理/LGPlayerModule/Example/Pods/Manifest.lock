@@ -1,0 +1,16 @@
+PODS:
+  - LGPlayerModule (0.1.0)
+
+DEPENDENCIES:
+  - LGPlayerModule (from `../`)
+
+EXTERNAL SOURCES:
+  LGPlayerModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LGPlayerModule: 6acade0d39561aac7c633f04d8ce1fcd9d5ec934
+
+PODFILE CHECKSUM: 736ffa395e5f7bec4bedfc4d25d0aa0ebb9fe2f8
+
+COCOAPODS: 1.9.0.beta.2

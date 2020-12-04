@@ -1,0 +1,34 @@
+{
+  "name": "LGDLNAModule",
+  "version": "0.1.0",
+  "summary": "A short description of LGDLNAModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cooci_tz@163.com/LGDLNAModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cooci_tz@163.com": "cooci_tz@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cooci_tz@163.com/LGDLNAModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGDLNAModule/Classes/**/*",
+  "dependencies": {
+    "LGMacroAndCategoryModule": [
+
+    ],
+    "MRDLNA": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"LGMacros.h\"",
+    "#import \"CLUPnP.h\""
+  ]
+}

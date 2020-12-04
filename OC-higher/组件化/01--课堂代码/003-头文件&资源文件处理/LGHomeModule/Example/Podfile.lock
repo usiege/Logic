@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (28)
+  - JSONModel (1.8.0)
+  - LGCommonUIModule (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGHomeModule (0.1.0):
+    - AFNetworking
+    - JSONModel
+    - LGCommonUIModule
+    - LGMacroAndCategoryModule
+    - LGPlayerModuleCategory
+    - Masonry
+    - TYCyclePagerView
+  - LGMacroAndCategoryModule (0.1.0)
+  - LGPlayerModuleCategory (0.1.0):
+    - CTMediator
+  - Masonry (1.1.0)
+  - TYCyclePagerView (1.2.0)
+
+DEPENDENCIES:
+  - LGCommonUIModule (from `../../LGCommonUIModule`)
+  - LGHomeModule (from `../`)
+  - LGMacroAndCategoryModule (from `../../LGMacroAndCategoryModule`)
+  - LGPlayerModuleCategory (from `../../LGPlayerModuleCategory`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CTMediator
+    - JSONModel
+    - Masonry
+    - TYCyclePagerView
+
+EXTERNAL SOURCES:
+  LGCommonUIModule:
+    :path: "../../LGCommonUIModule"
+  LGHomeModule:
+    :path: "../"
+  LGMacroAndCategoryModule:
+    :path: "../../LGMacroAndCategoryModule"
+  LGPlayerModuleCategory:
+    :path: "../../LGPlayerModuleCategory"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LGCommonUIModule: 85774e12232fc49fce10fb097cb6aeec1cba3619
+  LGHomeModule: a0411b3e944f627e6b1e05faec1ffede4a6b76f6
+  LGMacroAndCategoryModule: bda298343ff55fa8af6f1aa1133dffb0e35ea3b7
+  LGPlayerModuleCategory: e0991ba55ecd589339f61e3e58aa1f123e51eaa5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+
+PODFILE CHECKSUM: ecb40237e39a0c88e45bffcfebd1493c1738157e
+
+COCOAPODS: 1.9.0.beta.2

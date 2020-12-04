@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LGDLNAModule_Example' do
+  pod 'LGDLNAModule', :path => '../'
+  pod 'LGMacroAndCategoryModule', :path => '../../LGMacroAndCategoryModule'
+
+  target 'LGDLNAModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

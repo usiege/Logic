@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LGPlayerFollowCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="viA-aC-LMn">
+                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="FGi-l1-EsW"/>
+                            <constraint firstAttribute="height" constant="50" id="xCr-Ge-9kQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxz-vO-WzU">
+                        <rect key="frame" x="68" y="18.5" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2i-YG-V18">
+                        <rect key="frame" x="68" y="37" width="26.5" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8n0-ZZ-ARQ">
+                        <rect key="frame" x="250" y="20" width="60" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="4Na-W7-giq"/>
+                            <constraint firstAttribute="width" constant="60" id="lhi-3O-39a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="关注"/>
+                        <state key="selected" title="已关注"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8n0-ZZ-ARQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AhA-FT-rsn"/>
+                    <constraint firstItem="viA-aC-LMn" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" constant="-20" id="F0g-qy-VQC"/>
+                    <constraint firstAttribute="trailing" secondItem="8n0-ZZ-ARQ" secondAttribute="trailing" constant="10" id="Fap-It-ISm"/>
+                    <constraint firstItem="A2i-YG-V18" firstAttribute="leading" secondItem="viA-aC-LMn" secondAttribute="trailing" constant="8" id="Lmn-bk-bqN"/>
+                    <constraint firstItem="Dxz-vO-WzU" firstAttribute="bottom" secondItem="viA-aC-LMn" secondAttribute="centerY" constant="-2" id="QXp-ol-XbO"/>
+                    <constraint firstItem="Dxz-vO-WzU" firstAttribute="leading" secondItem="viA-aC-LMn" secondAttribute="trailing" constant="8" id="Qx1-af-yIV"/>
+                    <constraint firstItem="viA-aC-LMn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="UM8-Is-Bhd"/>
+                    <constraint firstItem="viA-aC-LMn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="mkm-qe-iNr"/>
+                    <constraint firstItem="A2i-YG-V18" firstAttribute="top" secondItem="viA-aC-LMn" secondAttribute="centerY" constant="2" id="nJh-SB-XEH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="avatarImageView" destination="viA-aC-LMn" id="Ws7-do-AHd"/>
+                <outlet property="descLabel" destination="A2i-YG-V18" id="mqH-fn-f4B"/>
+                <outlet property="followButton" destination="8n0-ZZ-ARQ" id="Rke-pt-HMK"/>
+                <outlet property="titleLabel" destination="Dxz-vO-WzU" id="nZA-oz-plJ"/>
+            </connections>
+            <point key="canvasLocation" x="-239" y="63"/>
+        </tableViewCell>
+    </objects>
+</document>

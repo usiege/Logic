@@ -1,0 +1,6 @@
+framework module LGModuleTest {
+  umbrella header "LGModuleTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

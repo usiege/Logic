@@ -1,0 +1,6 @@
+framework module LGPlayerModuleCategory {
+  umbrella header "LGPlayerModuleCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

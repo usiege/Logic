@@ -1,0 +1,6 @@
+framework module LGDataHandleMoudle {
+  umbrella header "LGDataHandleMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

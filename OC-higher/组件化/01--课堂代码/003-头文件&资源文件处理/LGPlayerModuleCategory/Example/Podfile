@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LGPlayerModuleCategory_Example' do
+  pod 'LGPlayerModuleCategory', :path => '../'
+
+  target 'LGPlayerModuleCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

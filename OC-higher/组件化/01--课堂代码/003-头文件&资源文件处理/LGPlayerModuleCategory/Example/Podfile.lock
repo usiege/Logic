@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (28)
+  - LGPlayerModuleCategory (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - LGPlayerModuleCategory (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  LGPlayerModuleCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  LGPlayerModuleCategory: e0991ba55ecd589339f61e3e58aa1f123e51eaa5
+
+PODFILE CHECKSUM: b8617082fc2543806f8300e1aa17291df0da9974
+
+COCOAPODS: 1.9.0.beta.2

@@ -1,0 +1,6 @@
+framework module LGFollowModule {
+  umbrella header "LGFollowModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
