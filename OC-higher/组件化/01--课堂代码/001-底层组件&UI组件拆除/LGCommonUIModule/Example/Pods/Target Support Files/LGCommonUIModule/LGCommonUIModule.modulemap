@@ -1,0 +1,6 @@
+framework module LGCommonUIModule {
+  umbrella header "LGCommonUIModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

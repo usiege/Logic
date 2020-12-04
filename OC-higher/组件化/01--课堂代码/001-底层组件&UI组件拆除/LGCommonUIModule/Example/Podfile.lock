@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - LGCommonUIModule (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGMacroAndCategoryModule (0.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LGCommonUIModule (from `../`)
+  - LGMacroAndCategoryModule (from `../../LGMacroAndCategoryModule`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
+
+EXTERNAL SOURCES:
+  LGCommonUIModule:
+    :path: "../"
+  LGMacroAndCategoryModule:
+    :path: "../../LGMacroAndCategoryModule"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  LGCommonUIModule: 85774e12232fc49fce10fb097cb6aeec1cba3619
+  LGMacroAndCategoryModule: bda298343ff55fa8af6f1aa1133dffb0e35ea3b7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 96685b0ebedd3c46fe3a87d77ab688cb5f5ae4b7
+
+COCOAPODS: 1.10.0

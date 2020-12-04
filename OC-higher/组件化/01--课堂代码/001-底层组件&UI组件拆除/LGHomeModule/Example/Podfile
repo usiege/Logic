@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LGHomeModule_Example' do
+  pod 'LGHomeModule', :path => '../'
+
+  target 'LGHomeModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
