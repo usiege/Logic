@@ -1,0 +1,60 @@
+{
+  "name": "LGHomeModule",
+  "version": "0.1.0",
+  "summary": "A short description of LGHomeModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cooci_tz@163.com/LGHomeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cooci_tz@163.com": "cooci_tz@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cooci_tz@163.com/LGHomeModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGHomeModule/Classes/**/*",
+  "resource_bundles": {
+    "LGHomeModule": [
+      "LGHomeModule/Classes/*.json"
+    ]
+  },
+  "dependencies": {
+    "JSONModel": [
+
+    ],
+    "LGMacroAndCategoryModule": [
+
+    ],
+    "TYCyclePagerView": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "LGCommonUIModule": [
+
+    ],
+    "LGPlayerModuleCategory": [
+
+    ],
+    "CTMediator": [
+
+    ]
+  },
+  "prefix_header_contents": [
+    "#import \"LGMacros.h\"",
+    "#import \"Masonry.h\"",
+    "#import \"AFNetworking.h\"",
+    "#import \"UIKit+AFNetworking.h\"",
+    "#import \"CTMediator+LGPlayerModuleAction.h\""
+  ]
+}

@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012742FD242B3E2200289734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012742FC242B3E2200289734 /* AppDelegate.m */; };
+		01274300242B3E2200289734 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012742FF242B3E2200289734 /* SceneDelegate.m */; };
+		01274303242B3E2200289734 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01274302242B3E2200289734 /* ViewController.m */; };
+		01274306242B3E2200289734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01274304242B3E2200289734 /* Main.storyboard */; };
+		01274308242B3E2500289734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01274307242B3E2500289734 /* Assets.xcassets */; };
+		0127430B242B3E2500289734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01274309242B3E2500289734 /* LaunchScreen.storyboard */; };
+		0127430E242B3E2500289734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0127430D242B3E2500289734 /* main.m */; };
+		01274318242B3E2500289734 /* LGVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01274317242B3E2500289734 /* LGVideoTests.m */; };
+		01274323242B3E2500289734 /* LGVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01274322242B3E2500289734 /* LGVideoUITests.m */; };
+		044C8DE125752BC7003BFFC4 /* Pods_LGVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044C8DE025752BC7003BFFC4 /* Pods_LGVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01274314242B3E2500289734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012742F0242B3E2200289734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012742F7242B3E2200289734;
+			remoteInfo = LGVideo;
+		};
+		0127431F242B3E2500289734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 012742F0242B3E2200289734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 012742F7242B3E2200289734;
+			remoteInfo = LGVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012742F8242B3E2200289734 /* LGVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012742FB242B3E2200289734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		012742FC242B3E2200289734 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		012742FE242B3E2200289734 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		012742FF242B3E2200289734 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		01274301242B3E2200289734 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01274302242B3E2200289734 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01274305242B3E2200289734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01274307242B3E2500289734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0127430A242B3E2500289734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0127430C242B3E2500289734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0127430D242B3E2500289734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01274313242B3E2500289734 /* LGVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01274317242B3E2500289734 /* LGVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGVideoTests.m; sourceTree = "<group>"; };
+		01274319242B3E2500289734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0127431E242B3E2500289734 /* LGVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01274322242B3E2500289734 /* LGVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGVideoUITests.m; sourceTree = "<group>"; };
+		01274324242B3E2500289734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044C8DE025752BC7003BFFC4 /* Pods_LGVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LGVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		994508594615D15A31A682D6 /* Pods-LGVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGVideo.release.xcconfig"; path = "Target Support Files/Pods-LGVideo/Pods-LGVideo.release.xcconfig"; sourceTree = "<group>"; };
+		B1C8DE90EA7018214F2AC212 /* Pods-LGVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGVideo.debug.xcconfig"; path = "Target Support Files/Pods-LGVideo/Pods-LGVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		ED7DDACEBF416CBC17ADFBB1 /* Pods_LGVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012742F5242B3E2200289734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044C8DE125752BC7003BFFC4 /* Pods_LGVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01274310242B3E2500289734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0127431B242B3E2500289734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012742EF242B3E2200289734 = {
+			isa = PBXGroup;
+			children = (
+				012742FA242B3E2200289734 /* LGVideo */,
+				01274316242B3E2500289734 /* LGVideoTests */,
+				01274321242B3E2500289734 /* LGVideoUITests */,
+				012742F9242B3E2200289734 /* Products */,
+				EC50DFA0EB455A53C9526B55 /* Pods */,
+				3307E7AC113E7BB9630BBBC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		012742F9242B3E2200289734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012742F8242B3E2200289734 /* LGVideo.app */,
+				01274313242B3E2500289734 /* LGVideoTests.xctest */,
+				0127431E242B3E2500289734 /* LGVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012742FA242B3E2200289734 /* LGVideo */ = {
+			isa = PBXGroup;
+			children = (
+				012742FB242B3E2200289734 /* AppDelegate.h */,
+				012742FC242B3E2200289734 /* AppDelegate.m */,
+				012742FE242B3E2200289734 /* SceneDelegate.h */,
+				012742FF242B3E2200289734 /* SceneDelegate.m */,
+				01274301242B3E2200289734 /* ViewController.h */,
+				01274302242B3E2200289734 /* ViewController.m */,
+				01274304242B3E2200289734 /* Main.storyboard */,
+				01274307242B3E2500289734 /* Assets.xcassets */,
+				01274309242B3E2500289734 /* LaunchScreen.storyboard */,
+				0127430C242B3E2500289734 /* Info.plist */,
+				0127430D242B3E2500289734 /* main.m */,
+			);
+			path = LGVideo;
+			sourceTree = "<group>";
+		};
+		01274316242B3E2500289734 /* LGVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				01274317242B3E2500289734 /* LGVideoTests.m */,
+				01274319242B3E2500289734 /* Info.plist */,
+			);
+			path = LGVideoTests;
+			sourceTree = "<group>";
+		};
+		01274321242B3E2500289734 /* LGVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01274322242B3E2500289734 /* LGVideoUITests.m */,
+				01274324242B3E2500289734 /* Info.plist */,
+			);
+			path = LGVideoUITests;
+			sourceTree = "<group>";
+		};
+		3307E7AC113E7BB9630BBBC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044C8DE025752BC7003BFFC4 /* Pods_LGVideo.framework */,
+				ED7DDACEBF416CBC17ADFBB1 /* Pods_LGVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC50DFA0EB455A53C9526B55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8DE90EA7018214F2AC212 /* Pods-LGVideo.debug.xcconfig */,
+				994508594615D15A31A682D6 /* Pods-LGVideo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012742F7242B3E2200289734 /* LGVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01274327242B3E2500289734 /* Build configuration list for PBXNativeTarget "LGVideo" */;
+			buildPhases = (
+				1B3DD61FF138DB62E0ACD1F2 /* [CP] Check Pods Manifest.lock */,
+				012742F4242B3E2200289734 /* Sources */,
+				012742F5242B3E2200289734 /* Frameworks */,
+				012742F6242B3E2200289734 /* Resources */,
+				65C7601182BAF8398FED8EA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGVideo;
+			productName = LGVideo;
+			productReference = 012742F8242B3E2200289734 /* LGVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01274312242B3E2500289734 /* LGVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0127432A242B3E2500289734 /* Build configuration list for PBXNativeTarget "LGVideoTests" */;
+			buildPhases = (
+				0127430F242B3E2500289734 /* Sources */,
+				01274310242B3E2500289734 /* Frameworks */,
+				01274311242B3E2500289734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01274315242B3E2500289734 /* PBXTargetDependency */,
+			);
+			name = LGVideoTests;
+			productName = LGVideoTests;
+			productReference = 01274313242B3E2500289734 /* LGVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0127431D242B3E2500289734 /* LGVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0127432D242B3E2500289734 /* Build configuration list for PBXNativeTarget "LGVideoUITests" */;
+			buildPhases = (
+				0127431A242B3E2500289734 /* Sources */,
+				0127431B242B3E2500289734 /* Frameworks */,
+				0127431C242B3E2500289734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01274320242B3E2500289734 /* PBXTargetDependency */,
+			);
+			name = LGVideoUITests;
+			productName = LGVideoUITests;
+			productReference = 0127431E242B3E2500289734 /* LGVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012742F0242B3E2200289734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = LGEDU;
+				TargetAttributes = {
+					012742F7242B3E2200289734 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					01274312242B3E2500289734 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 012742F7242B3E2200289734;
+					};
+					0127431D242B3E2500289734 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 012742F7242B3E2200289734;
+					};
+				};
+			};
+			buildConfigurationList = 012742F3242B3E2200289734 /* Build configuration list for PBXProject "LGVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012742EF242B3E2200289734;
+			productRefGroup = 012742F9242B3E2200289734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012742F7242B3E2200289734 /* LGVideo */,
+				01274312242B3E2500289734 /* LGVideoTests */,
+				0127431D242B3E2500289734 /* LGVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012742F6242B3E2200289734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0127430B242B3E2500289734 /* LaunchScreen.storyboard in Resources */,
+				01274308242B3E2500289734 /* Assets.xcassets in Resources */,
+				01274306242B3E2200289734 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01274311242B3E2500289734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0127431C242B3E2500289734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B3DD61FF138DB62E0ACD1F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C7601182BAF8398FED8EA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGVideo/Pods-LGVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGVideo/Pods-LGVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LGVideo/Pods-LGVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012742F4242B3E2200289734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01274303242B3E2200289734 /* ViewController.m in Sources */,
+				012742FD242B3E2200289734 /* AppDelegate.m in Sources */,
+				0127430E242B3E2500289734 /* main.m in Sources */,
+				01274300242B3E2200289734 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0127430F242B3E2500289734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01274318242B3E2500289734 /* LGVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0127431A242B3E2500289734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01274323242B3E2500289734 /* LGVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01274315242B3E2500289734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012742F7242B3E2200289734 /* LGVideo */;
+			targetProxy = 01274314242B3E2500289734 /* PBXContainerItemProxy */;
+		};
+		01274320242B3E2500289734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 012742F7242B3E2200289734 /* LGVideo */;
+			targetProxy = 0127431F242B3E2500289734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01274304242B3E2200289734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01274305242B3E2200289734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01274309242B3E2500289734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0127430A242B3E2500289734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01274325242B3E2500289734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01274326242B3E2500289734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01274328242B3E2500289734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C8DE90EA7018214F2AC212 /* Pods-LGVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONModel/JSONModel.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGCommonUIModule/LGCommonUIModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGDLNAModule/LGDLNAModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGHomeModule/LGHomeModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGHomeModuleCategory/LGHomeModuleCategory.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGMacroAndCategoryModule/LGMacroAndCategoryModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGPlayerModule/LGPlayerModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGPlayerModuleCategory/LGPlayerModuleCategory.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MRDLNA/MRDLNA.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TYCyclePagerView/TYCyclePagerView.framework/Headers\"",
+					"${SDKROOT}/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = LGVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01274329242B3E2500289734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994508594615D15A31A682D6 /* Pods-LGVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CTMediator/CTMediator.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JSONModel/JSONModel.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGCommonUIModule/LGCommonUIModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGDLNAModule/LGDLNAModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGHomeModule/LGHomeModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGHomeModuleCategory/LGHomeModuleCategory.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGMacroAndCategoryModule/LGMacroAndCategoryModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGPlayerModule/LGPlayerModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LGPlayerModuleCategory/LGPlayerModuleCategory.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MRDLNA/MRDLNA.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TYCyclePagerView/TYCyclePagerView.framework/Headers\"",
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
+				INFOPLIST_FILE = LGVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0127432B242B3E2500289734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGVideo.app/LGVideo";
+			};
+			name = Debug;
+		};
+		0127432C242B3E2500289734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGVideo.app/LGVideo";
+			};
+			name = Release;
+		};
+		0127432E242B3E2500289734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGVideo;
+			};
+			name = Debug;
+		};
+		0127432F242B3E2500289734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LG.LGVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012742F3242B3E2200289734 /* Build configuration list for PBXProject "LGVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01274325242B3E2500289734 /* Debug */,
+				01274326242B3E2500289734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01274327242B3E2500289734 /* Build configuration list for PBXNativeTarget "LGVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01274328242B3E2500289734 /* Debug */,
+				01274329242B3E2500289734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0127432A242B3E2500289734 /* Build configuration list for PBXNativeTarget "LGVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0127432B242B3E2500289734 /* Debug */,
+				0127432C242B3E2500289734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0127432D242B3E2500289734 /* Build configuration list for PBXNativeTarget "LGVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0127432E242B3E2500289734 /* Debug */,
+				0127432F242B3E2500289734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012742F0242B3E2200289734 /* Project object */;
+}

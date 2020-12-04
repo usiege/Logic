@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LGVideo' do
+  pod 'LGHomeModuleCategory', :path => '../LGHomeModuleCategory'
+  pod 'LGMacroAndCategoryModule', :path => '../LGMacroAndCategoryModule'
+  pod 'LGCommonUIModule', :path => '../LGCommonUIModule'
+  pod 'LGPlayerModuleCategory', :path => '../LGPlayerModuleCategory'
+  pod 'LGHomeModule', :path => '../LGHomeModule'
+  pod 'LGPlayerModule', :path => '../LGPlayerModule'
+  pod 'LGDLNAModule', :path => '../LGDLNAModule'
+  
+end

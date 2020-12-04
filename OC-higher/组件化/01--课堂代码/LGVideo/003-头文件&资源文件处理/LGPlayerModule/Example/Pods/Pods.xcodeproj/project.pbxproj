@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		119E1B95108CC422CDF9616D31ABFC6C /* LGPlayerControlView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 710A9F9A41165A84426141BCB22F8017 /* LGPlayerControlView.xib */; };
+		160D7F65F25E2F7E66DA3F7FB551EAF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		17A612AAB92C1ED3DB2ABAFA479E77DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		18DDF737C5B861EAC0301DFDE1827B99 /* Pods-LGPlayerModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB7061703D088CE0F5C3CB12D5E448 /* Pods-LGPlayerModule_Tests-dummy.m */; };
+		1AF1F6D43AD1E43D3CF91D1240FD230D /* LGTableViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 308EBBCD425ABB2754D06CEC1B853618 /* LGTableViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD21EFC578F646962D7C47F298A5554 /* LGPlayerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F8688F606A2EF379B6D8F07AB15FF4 /* LGPlayerUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB12B816879D8C6332B42066B7F10B3 /* LGPlayerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FF08D5EEF096E43145EB2A92289F9B95 /* LGPlayerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBB83F45C2B9F4B9AD002DF9BA231B3 /* LGPlayerFollowCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E63BE91FB7542C82612C96DA92C73F7A /* LGPlayerFollowCell.xib */; };
+		200684FD8383880E4E986636B764C707 /* LGPlayerView+Gesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6B99E3659BBC46289BF0B40D56131B /* LGPlayerView+Gesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21167B89E77118F2051F5A3FAC86C9F8 /* LGPlayerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A84B7036323A3E14629D210271BFC84 /* LGPlayerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		260FBAAABEC0FE63EB19810920A0728A /* LGPlayerView+Cast.h in Headers */ = {isa = PBXBuildFile; fileRef = BE963CDCF50B59A5C1ECAE1071EFC51B /* LGPlayerView+Cast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ABDD6889B2B651DD241263712225509 /* LGPlayerViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE6ECB5AA764835EDFF02115AF95EA5 /* LGPlayerViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3017B3D8B2F5C07AD86F0C25C165FCCC /* LGPlayerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBAB490F9B022A3A92C620FA48F56E4 /* LGPlayerResponse.m */; };
+		32542FD1E6CCEF6525D13D604C80B52A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		33CAB124F62A8BE0774E51D367BF8A60 /* LGPlayerSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC24F394FF45C3B2CF9B6A5DE2DA5D /* LGPlayerSource.m */; };
+		38F9F20CA821E4F85C39EE5D34F3E63B /* Pods-LGPlayerModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFF0B0E4EC72CFC9A2381311C9532EB /* Pods-LGPlayerModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E376B86AD34EE4460F4247F9AD86804 /* LGTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E511FB9685F7B35984FE67DD3A45A05D /* LGTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B7511E14C0D2505AC61900903EC8CA /* LGPlayerVideoInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D24447CABBF6D7585D961226DA518E9 /* LGPlayerVideoInfoCell.m */; };
+		46561E3205E8735F9EC2D24C616B6516 /* Pods-LGPlayerModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F45D802C0D649D84BC429C5250C600 /* Pods-LGPlayerModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46F5856BF09457CCFE76ABAD1362D1C0 /* LGPlayerVideoRelativesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B3E3837E7EA994ADAE205FA47010E /* LGPlayerVideoRelativesCell.m */; };
+		4BA11268D0FDCCFD05C5F05215BF8C2E /* Player_Video_Comment.json in Sources */ = {isa = PBXBuildFile; fileRef = 3491DFC0262CEA51F9D3C42B504C1053 /* Player_Video_Comment.json */; };
+		50957804DE590ECB865BA446FFC1DA62 /* LGPlayerFollowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A324D1F05E1DDC5D29035F93DFBFCF2 /* LGPlayerFollowCell.m */; };
+		52BA3B4B769D1679753ECDC1E9E65824 /* LGPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DBF5B0EEDB09F790F92B8DCEFE22F /* LGPlayerView.m */; };
+		571C0E61F6664F2F9EA007E9B500F35B /* LGPlayerVideoEpisodesCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 271FD7BC2C8E774EACC0EF474C84F7C3 /* LGPlayerVideoEpisodesCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A01AC4B03612ED12CFA19A9A49E36B /* LGPlayerView+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1CE4D658C4CB0C065B786A65E5C2C0 /* LGPlayerView+Cast.m */; };
+		5938ACB8FF4AA4E96AD8E896177E4644 /* LGPlayerView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DEBFA72607E2E7D7667B697F58BBB7 /* LGPlayerView+Gesture.m */; };
+		5E3EC4369FF024D7621517481045D797 /* LGPlayerViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C01AD0EA3D7B402E29C372AC2BD5A892 /* LGPlayerViewProxy.m */; };
+		5F1BE9CAA731B09EBC188C4FEBD3033F /* Pods-LGPlayerModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3B670BCD298491E8F3C6DCA600463 /* Pods-LGPlayerModule_Example-dummy.m */; };
+		6757ACF12950C6BB89016C3F4BACBA91 /* LGPlayerVideoEpisodesCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 32AF3825C41ADA93C07DA1B2B6B74D37 /* LGPlayerVideoEpisodesCell.xib */; };
+		7266DF9888151A5AD127F660F8DACAB1 /* LGResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4BEBA1B85A3FC296FE04F9CC3EA55 /* LGResponse.m */; };
+		7313A31249E9613B135D48E563D7FA71 /* LGPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343DAA1479740BEDCFD70BB661BF0455 /* LGPlayerViewController.m */; };
+		8245E21032502EB25C4FE9C4FA7E9A28 /* LGTableViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69B2C6DDFA57086E9659405A120827 /* LGTableViewProxy.m */; };
+		8B66CA31F7A61F039485A1D98DA30339 /* LGPlayerCellsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBB82D009397C75DB2045903393ED25 /* LGPlayerCellsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB66580E2968779338671E5A342D372 /* LGResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FDE06759CE67F51AD710CE5CDDDC2A /* LGResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94C9D084697192AB847869D03450D14A /* LGPlayerVideoRelativesCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CF0CE5B616FF94DC19AC94599518E900 /* LGPlayerVideoRelativesCell.xib */; };
+		9C1E4E85687B9675802AA38D1A6197C4 /* LGPlayerSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FF975901A4E90A15552FC407324419AE /* LGPlayerSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A039DA65332DE0325552FCD39DE5A427 /* UIButton+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = B15034B3356823A20D3375CA813B8904 /* UIButton+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A26586479A781A5F7F697402B858BA72 /* LGPlayerView+Rotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE2658B9357F05EAB4F01B28860D961 /* LGPlayerView+Rotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACDA36C32B8F911EAD7573F47C1C6E67 /* LGPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 018CD2ED91C45B015D6301E41CA67002 /* LGPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF77A2152679327FEDC4B98BDE501AF3 /* Target_LGPlayerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C179F8C3524497479190EBDCFA8634CA /* Target_LGPlayerModule.m */; };
+		B21B2319938F0180302D30B46964358F /* LGPlayerVideoInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF23C0D01D8857D53C5B1ADAA8B60D /* LGPlayerVideoInfoResponse.m */; };
+		B2FDD8C601458B2D432E5D813E7E9086 /* LGPlayerCommentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED0040AD65607EE4231D868E2DBCBFB /* LGPlayerCommentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B393BE7823043206A28C2A7B4D69C370 /* LGPlayerVideoEpisodesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41315DC9A3B325945D6AB21384A84702 /* LGPlayerVideoEpisodesCell.m */; };
+		B458A332E60FB6A0338D2BEDB6F3444A /* LGPlayerVideoRelativesCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C401C1B66F72721D231B8E39EFEF3F5 /* LGPlayerVideoRelativesCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B99369DF98FF0275B8BA82AC8B611D56 /* LGPlayerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6932147E024A0A7DDD525DFC98A34 /* LGPlayerDataSource.m */; };
+		BAF138DD2EE0C142F8F156D477CA9E73 /* LGPlayerCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B75A14C947ECBA1E5A030E881C0B97 /* LGPlayerCommentCell.m */; };
+		C7AFA04BA4F1A711B8CADFFA309F9A5A /* LGPlayerVideoInfoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F16514EE991C40DB95A3D40868E7599A /* LGPlayerVideoInfoSource.m */; };
+		C88CAE8065804C42465BA1E00DDB4389 /* Player_Video_Info.json in Sources */ = {isa = PBXBuildFile; fileRef = 99FDD5AE1980240825A4F165208AD1B6 /* Player_Video_Info.json */; };
+		CA528F9FDC5341F564F34818C3685B9D /* LGPlayerVideoInfoCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F1AFEA4E613FB424E73228D35860F857 /* LGPlayerVideoInfoCell.xib */; };
+		CCFAEA6D6A96E6010F2E99364E6C99C3 /* LGPlayerModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC513037DE8DAAB00B64E7D985E82BDC /* LGPlayerModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3568228141FCB3324448FF29B57F08A /* Target_LGPlayerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 15AA6B18C00166323E7F6B5325C08403 /* Target_LGPlayerModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D611F90213C7730A9249B3366AD05C1A /* LGPlayerVideoInfoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B65DB1E0F8751A50FD3A1179ABF3ADE3 /* LGPlayerVideoInfoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A43D94D55E05774F1EE4BEFA15E114 /* Player_Video_Url.json in Sources */ = {isa = PBXBuildFile; fileRef = AE497A94231DB5DA44C02310112702CF /* Player_Video_Url.json */; };
+		D9BB310CB575F5F6032DAC11CAA34175 /* LGPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E132D6C71484C168FB5A36DF0BA814F /* LGPlayerControlView.m */; };
+		DEED25237E689B3F2C27E22AFF0441AF /* LGPlayerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 692FFA2A898E43F49CBAB50165C5946A /* LGPlayerUtils.m */; };
+		E4A666C0587E7F9C7B19CAB1D1602200 /* LGPlayerModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F69810685D709DE8D3BC453B2A64AE3 /* LGPlayerModule-dummy.m */; };
+		E96679C9AA26824279CDA547F5BA70B1 /* LGPlayerControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C2DDBF2EFD4C545FE6EF0444BACED8 /* LGPlayerControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC29658AEB314ABDBE20786C52C094F6 /* LGPlayerView+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCEEF9078761ABDEC93DF9E13014409 /* LGPlayerView+Rotation.m */; };
+		EFA135459E4FC9654229C23BE9030707 /* LGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B90F8C214A6BA9C6C0DEAF29FAC63E61 /* LGTableViewCell.m */; };
+		F564279FE02431851943B1FDBDC83105 /* LGPlayerVideoInfoResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C380D703AF814E563E0FA099D325B58 /* LGPlayerVideoInfoResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7D77AD5F01679D8EF0880A3B46F860 /* LGPlayerFollowCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0211CD0E2C046B7C07F104438991DBD0 /* LGPlayerFollowCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE8B19C0787A1270D97A36DB0C0B448 /* LGPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20F921DA99FFAF522CABC6FB139F8F /* LGPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF391F0C08090C1EA0906ED22BCA11A1 /* UIButton+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB0EBC87BAB4EF41F39051BA55D23C /* UIButton+Custom.m */; };
+		FFB38E63CA210593C00CF6D2DF9047F8 /* LGPlayerVideoInfoSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F413ACF2029D4E7A958DAC53B2B744 /* LGPlayerVideoInfoSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		347D73FD12BE9B1D0464A017A43D97FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F973F9CB9359862C3EB9E0DDDC1B40;
+			remoteInfo = LGPlayerModule;
+		};
+		E6DF8F43E5DBA92061D98B19FEBFD3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA44070665E7C418BD34635AF21C013;
+			remoteInfo = "Pods-LGPlayerModule_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018CD2ED91C45B015D6301E41CA67002 /* LGPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerViewController.h; path = LGPlayerModule/Classes/LGPlayerViewController.h; sourceTree = "<group>"; };
+		0211CD0E2C046B7C07F104438991DBD0 /* LGPlayerFollowCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerFollowCell.h; path = LGPlayerModule/Classes/LGPlayerFollowCell.h; sourceTree = "<group>"; };
+		0BBAB490F9B022A3A92C620FA48F56E4 /* LGPlayerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerResponse.m; path = LGPlayerModule/Classes/LGPlayerResponse.m; sourceTree = "<group>"; };
+		0BCEEF9078761ABDEC93DF9E13014409 /* LGPlayerView+Rotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGPlayerView+Rotation.m"; path = "LGPlayerModule/Classes/LGPlayerView+Rotation.m"; sourceTree = "<group>"; };
+		0EDC1C1F166AFF670E5AECEDC188BEF2 /* Pods-LGPlayerModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGPlayerModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EE2658B9357F05EAB4F01B28860D961 /* LGPlayerView+Rotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGPlayerView+Rotation.h"; path = "LGPlayerModule/Classes/LGPlayerView+Rotation.h"; sourceTree = "<group>"; };
+		0F31A327615D1BFFCBDC8722DB5D7D66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		11C4C4B63F7F30C7519BB3050A834AE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		12B75A14C947ECBA1E5A030E881C0B97 /* LGPlayerCommentCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerCommentCell.m; path = LGPlayerModule/Classes/LGPlayerCommentCell.m; sourceTree = "<group>"; };
+		15AA6B18C00166323E7F6B5325C08403 /* Target_LGPlayerModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_LGPlayerModule.h; path = LGPlayerModule/Classes/Target_LGPlayerModule.h; sourceTree = "<group>"; };
+		19F413ACF2029D4E7A958DAC53B2B744 /* LGPlayerVideoInfoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerVideoInfoSource.h; path = LGPlayerModule/Classes/LGPlayerVideoInfoSource.h; sourceTree = "<group>"; };
+		1E1D67AFAFD81DAA629B6BDF4B4202D4 /* Pods-LGPlayerModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGPlayerModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		213E06CFD8A7EFCFD212F9C8591713A9 /* LGPlayerModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGPlayerModule.framework; path = LGPlayerModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246365417C127E5D06516E0A80570167 /* LGPlayerModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGPlayerModule-Info.plist"; sourceTree = "<group>"; };
+		271FD7BC2C8E774EACC0EF474C84F7C3 /* LGPlayerVideoEpisodesCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerVideoEpisodesCell.h; path = LGPlayerModule/Classes/LGPlayerVideoEpisodesCell.h; sourceTree = "<group>"; };
+		2EE118ACE2B0F5C4F1ADCAC174E5777C /* Pods-LGPlayerModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGPlayerModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FEEF7D4C8F5F74EF83CCEDB7ABD83E9 /* Pods-LGPlayerModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGPlayerModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		308EBBCD425ABB2754D06CEC1B853618 /* LGTableViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGTableViewProxy.h; path = LGPlayerModule/Classes/LGTableViewProxy.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32AF3825C41ADA93C07DA1B2B6B74D37 /* LGPlayerVideoEpisodesCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGPlayerVideoEpisodesCell.xib; path = LGPlayerModule/Classes/LGPlayerVideoEpisodesCell.xib; sourceTree = "<group>"; };
+		343DAA1479740BEDCFD70BB661BF0455 /* LGPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerViewController.m; path = LGPlayerModule/Classes/LGPlayerViewController.m; sourceTree = "<group>"; };
+		3491DFC0262CEA51F9D3C42B504C1053 /* Player_Video_Comment.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Player_Video_Comment.json; path = LGPlayerModule/Classes/Player_Video_Comment.json; sourceTree = "<group>"; };
+		3ECF23C0D01D8857D53C5B1ADAA8B60D /* LGPlayerVideoInfoResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerVideoInfoResponse.m; path = LGPlayerModule/Classes/LGPlayerVideoInfoResponse.m; sourceTree = "<group>"; };
+		3FA3B670BCD298491E8F3C6DCA600463 /* Pods-LGPlayerModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGPlayerModule_Example-dummy.m"; sourceTree = "<group>"; };
+		41315DC9A3B325945D6AB21384A84702 /* LGPlayerVideoEpisodesCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerVideoEpisodesCell.m; path = LGPlayerModule/Classes/LGPlayerVideoEpisodesCell.m; sourceTree = "<group>"; };
+		4A6B99E3659BBC46289BF0B40D56131B /* LGPlayerView+Gesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGPlayerView+Gesture.h"; path = "LGPlayerModule/Classes/LGPlayerView+Gesture.h"; sourceTree = "<group>"; };
+		4A84B7036323A3E14629D210271BFC84 /* LGPlayerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerResponse.h; path = LGPlayerModule/Classes/LGPlayerResponse.h; sourceTree = "<group>"; };
+		4C401C1B66F72721D231B8E39EFEF3F5 /* LGPlayerVideoRelativesCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerVideoRelativesCell.h; path = LGPlayerModule/Classes/LGPlayerVideoRelativesCell.h; sourceTree = "<group>"; };
+		4CCB0EBC87BAB4EF41F39051BA55D23C /* UIButton+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Custom.m"; path = "LGPlayerModule/Classes/UIButton+Custom.m"; sourceTree = "<group>"; };
+		4F69810685D709DE8D3BC453B2A64AE3 /* LGPlayerModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGPlayerModule-dummy.m"; sourceTree = "<group>"; };
+		5418741A413E2BEA17D906A703EC1524 /* Pods-LGPlayerModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGPlayerModule_Example.modulemap"; sourceTree = "<group>"; };
+		5D24447CABBF6D7585D961226DA518E9 /* LGPlayerVideoInfoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerVideoInfoCell.m; path = LGPlayerModule/Classes/LGPlayerVideoInfoCell.m; sourceTree = "<group>"; };
+		5F20F921DA99FFAF522CABC6FB139F8F /* LGPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerView.h; path = LGPlayerModule/Classes/LGPlayerView.h; sourceTree = "<group>"; };
+		5FC3D6A379032EA877CCF9BA83E73EDA /* Pods_LGPlayerModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGPlayerModule_Example.framework; path = "Pods-LGPlayerModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618DBF5B0EEDB09F790F92B8DCEFE22F /* LGPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerView.m; path = LGPlayerModule/Classes/LGPlayerView.m; sourceTree = "<group>"; };
+		68DEBFA72607E2E7D7667B697F58BBB7 /* LGPlayerView+Gesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGPlayerView+Gesture.m"; path = "LGPlayerModule/Classes/LGPlayerView+Gesture.m"; sourceTree = "<group>"; };
+		692FFA2A898E43F49CBAB50165C5946A /* LGPlayerUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerUtils.m; path = LGPlayerModule/Classes/LGPlayerUtils.m; sourceTree = "<group>"; };
+		6B2AC6AEFBBF4A3A8CFC4F4645598BCC /* Pods-LGPlayerModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPlayerModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6BE6ECB5AA764835EDFF02115AF95EA5 /* LGPlayerViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerViewProxy.h; path = LGPlayerModule/Classes/LGPlayerViewProxy.h; sourceTree = "<group>"; };
+		6C74D981EC767707500188C7B03E727E /* LGPlayerModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGPlayerModule.debug.xcconfig; sourceTree = "<group>"; };
+		6E132D6C71484C168FB5A36DF0BA814F /* LGPlayerControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerControlView.m; path = LGPlayerModule/Classes/LGPlayerControlView.m; sourceTree = "<group>"; };
+		6E69B2C6DDFA57086E9659405A120827 /* LGTableViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGTableViewProxy.m; path = LGPlayerModule/Classes/LGTableViewProxy.m; sourceTree = "<group>"; };
+		6F5B3E3837E7EA994ADAE205FA47010E /* LGPlayerVideoRelativesCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerVideoRelativesCell.m; path = LGPlayerModule/Classes/LGPlayerVideoRelativesCell.m; sourceTree = "<group>"; };
+		710A9F9A41165A84426141BCB22F8017 /* LGPlayerControlView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGPlayerControlView.xib; path = LGPlayerModule/Classes/LGPlayerControlView.xib; sourceTree = "<group>"; };
+		74F8B5B46E21CFAD314A77283D9C5F04 /* LGPlayerModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LGPlayerModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		755FD9DB884ECE3442696F932EC74552 /* Pods-LGPlayerModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPlayerModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		76F45D802C0D649D84BC429C5250C600 /* Pods-LGPlayerModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGPlayerModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		795FE3F6953F126B2723A720F8EEA95A /* Pods-LGPlayerModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LGPlayerModule_Tests.modulemap"; sourceTree = "<group>"; };
+		7ECC24F394FF45C3B2CF9B6A5DE2DA5D /* LGPlayerSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerSource.m; path = LGPlayerModule/Classes/LGPlayerSource.m; sourceTree = "<group>"; };
+		7ED0040AD65607EE4231D868E2DBCBFB /* LGPlayerCommentCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerCommentCell.h; path = LGPlayerModule/Classes/LGPlayerCommentCell.h; sourceTree = "<group>"; };
+		801A787D8B172A3ABA775D666256A3CB /* LGPlayerModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGPlayerModule.modulemap; sourceTree = "<group>"; };
+		80664A9E6523A2C31D3AA318DD4117B5 /* Pods_LGPlayerModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LGPlayerModule_Tests.framework; path = "Pods-LGPlayerModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839C0FE749B3ACF89D2AA7E87F643DD0 /* Pods-LGPlayerModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGPlayerModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A324D1F05E1DDC5D29035F93DFBFCF2 /* LGPlayerFollowCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerFollowCell.m; path = LGPlayerModule/Classes/LGPlayerFollowCell.m; sourceTree = "<group>"; };
+		8F21E2D8C6EE5934C28D0EAA97C5917D /* Pods-LGPlayerModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGPlayerModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95FDE06759CE67F51AD710CE5CDDDC2A /* LGResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGResponse.h; path = LGPlayerModule/Classes/LGResponse.h; sourceTree = "<group>"; };
+		99FDD5AE1980240825A4F165208AD1B6 /* Player_Video_Info.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Player_Video_Info.json; path = LGPlayerModule/Classes/Player_Video_Info.json; sourceTree = "<group>"; };
+		9C380D703AF814E563E0FA099D325B58 /* LGPlayerVideoInfoResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerVideoInfoResponse.h; path = LGPlayerModule/Classes/LGPlayerVideoInfoResponse.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE497A94231DB5DA44C02310112702CF /* Player_Video_Url.json */ = {isa = PBXFileReference; includeInIndex = 1; name = Player_Video_Url.json; path = LGPlayerModule/Classes/Player_Video_Url.json; sourceTree = "<group>"; };
+		AF7E8ADBDCD05E0DB6E227F3BE916C77 /* Pods-LGPlayerModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPlayerModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B15034B3356823A20D3375CA813B8904 /* UIButton+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Custom.h"; path = "LGPlayerModule/Classes/UIButton+Custom.h"; sourceTree = "<group>"; };
+		B4C2DDBF2EFD4C545FE6EF0444BACED8 /* LGPlayerControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerControlView.h; path = LGPlayerModule/Classes/LGPlayerControlView.h; sourceTree = "<group>"; };
+		B65DB1E0F8751A50FD3A1179ABF3ADE3 /* LGPlayerVideoInfoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerVideoInfoCell.h; path = LGPlayerModule/Classes/LGPlayerVideoInfoCell.h; sourceTree = "<group>"; };
+		B90F8C214A6BA9C6C0DEAF29FAC63E61 /* LGTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGTableViewCell.m; path = LGPlayerModule/Classes/LGTableViewCell.m; sourceTree = "<group>"; };
+		BE963CDCF50B59A5C1ECAE1071EFC51B /* LGPlayerView+Cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGPlayerView+Cast.h"; path = "LGPlayerModule/Classes/LGPlayerView+Cast.h"; sourceTree = "<group>"; };
+		C01AD0EA3D7B402E29C372AC2BD5A892 /* LGPlayerViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerViewProxy.m; path = LGPlayerModule/Classes/LGPlayerViewProxy.m; sourceTree = "<group>"; };
+		C179F8C3524497479190EBDCFA8634CA /* Target_LGPlayerModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_LGPlayerModule.m; path = LGPlayerModule/Classes/Target_LGPlayerModule.m; sourceTree = "<group>"; };
+		C7E4BEBA1B85A3FC296FE04F9CC3EA55 /* LGResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGResponse.m; path = LGPlayerModule/Classes/LGResponse.m; sourceTree = "<group>"; };
+		CF0CE5B616FF94DC19AC94599518E900 /* LGPlayerVideoRelativesCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGPlayerVideoRelativesCell.xib; path = LGPlayerModule/Classes/LGPlayerVideoRelativesCell.xib; sourceTree = "<group>"; };
+		D7D53FFBF3BFA8501D8E67C7EB76E968 /* Pods-LGPlayerModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGPlayerModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D856669EA5C80B16EF0367F6D65E6030 /* LGPlayerModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGPlayerModule-prefix.pch"; sourceTree = "<group>"; };
+		DD3837D3A62A86A5F6E150157EF2748D /* Pods-LGPlayerModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGPlayerModule_Example-Info.plist"; sourceTree = "<group>"; };
+		E511FB9685F7B35984FE67DD3A45A05D /* LGTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGTableViewCell.h; path = LGPlayerModule/Classes/LGTableViewCell.h; sourceTree = "<group>"; };
+		E63BE91FB7542C82612C96DA92C73F7A /* LGPlayerFollowCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGPlayerFollowCell.xib; path = LGPlayerModule/Classes/LGPlayerFollowCell.xib; sourceTree = "<group>"; };
+		E6B6932147E024A0A7DDD525DFC98A34 /* LGPlayerDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerDataSource.m; path = LGPlayerModule/Classes/LGPlayerDataSource.m; sourceTree = "<group>"; };
+		EC513037DE8DAAB00B64E7D985E82BDC /* LGPlayerModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGPlayerModule-umbrella.h"; sourceTree = "<group>"; };
+		EEAB7061703D088CE0F5C3CB12D5E448 /* Pods-LGPlayerModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGPlayerModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		EFBB7216580D4A51F744A19DD2AB497F /* LGPlayerModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGPlayerModule.release.xcconfig; sourceTree = "<group>"; };
+		F16514EE991C40DB95A3D40868E7599A /* LGPlayerVideoInfoSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGPlayerVideoInfoSource.m; path = LGPlayerModule/Classes/LGPlayerVideoInfoSource.m; sourceTree = "<group>"; };
+		F1AFEA4E613FB424E73228D35860F857 /* LGPlayerVideoInfoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LGPlayerVideoInfoCell.xib; path = LGPlayerModule/Classes/LGPlayerVideoInfoCell.xib; sourceTree = "<group>"; };
+		F6F8688F606A2EF379B6D8F07AB15FF4 /* LGPlayerUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerUtils.h; path = LGPlayerModule/Classes/LGPlayerUtils.h; sourceTree = "<group>"; };
+		FDFF0B0E4EC72CFC9A2381311C9532EB /* Pods-LGPlayerModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGPlayerModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE1CE4D658C4CB0C065B786A65E5C2C0 /* LGPlayerView+Cast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGPlayerView+Cast.m"; path = "LGPlayerModule/Classes/LGPlayerView+Cast.m"; sourceTree = "<group>"; };
+		FF08D5EEF096E43145EB2A92289F9B95 /* LGPlayerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerDataSource.h; path = LGPlayerModule/Classes/LGPlayerDataSource.h; sourceTree = "<group>"; };
+		FF975901A4E90A15552FC407324419AE /* LGPlayerSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerSource.h; path = LGPlayerModule/Classes/LGPlayerSource.h; sourceTree = "<group>"; };
+		FFBB82D009397C75DB2045903393ED25 /* LGPlayerCellsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPlayerCellsHeader.h; path = LGPlayerModule/Classes/LGPlayerCellsHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C85060F2227D9847D5CC94A34E180F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A612AAB92C1ED3DB2ABAFA479E77DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531D53D46154FC02E6FB84ABD358BF9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160D7F65F25E2F7E66DA3F7FB551EAF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9962CDE8492CAC819BD48429C94A5D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32542FD1E6CCEF6525D13D604C80B52A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FEAE299650CAF56B9F954AD7C114BA /* Pods-LGPlayerModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				795FE3F6953F126B2723A720F8EEA95A /* Pods-LGPlayerModule_Tests.modulemap */,
+				2EE118ACE2B0F5C4F1ADCAC174E5777C /* Pods-LGPlayerModule_Tests-acknowledgements.markdown */,
+				839C0FE749B3ACF89D2AA7E87F643DD0 /* Pods-LGPlayerModule_Tests-acknowledgements.plist */,
+				EEAB7061703D088CE0F5C3CB12D5E448 /* Pods-LGPlayerModule_Tests-dummy.m */,
+				2FEEF7D4C8F5F74EF83CCEDB7ABD83E9 /* Pods-LGPlayerModule_Tests-Info.plist */,
+				FDFF0B0E4EC72CFC9A2381311C9532EB /* Pods-LGPlayerModule_Tests-umbrella.h */,
+				755FD9DB884ECE3442696F932EC74552 /* Pods-LGPlayerModule_Tests.debug.xcconfig */,
+				6B2AC6AEFBBF4A3A8CFC4F4645598BCC /* Pods-LGPlayerModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGPlayerModule_Tests";
+			path = "Target Support Files/Pods-LGPlayerModule_Tests";
+			sourceTree = "<group>";
+		};
+		278226D4BFCEBCB30C0C3BC327297E39 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				74F8B5B46E21CFAD314A77283D9C5F04 /* LGPlayerModule.podspec */,
+				0F31A327615D1BFFCBDC8722DB5D7D66 /* LICENSE */,
+				11C4C4B63F7F30C7519BB3050A834AE3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33456F4190D539A236209258B868F5FD /* Pods-LGPlayerModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5418741A413E2BEA17D906A703EC1524 /* Pods-LGPlayerModule_Example.modulemap */,
+				8F21E2D8C6EE5934C28D0EAA97C5917D /* Pods-LGPlayerModule_Example-acknowledgements.markdown */,
+				0EDC1C1F166AFF670E5AECEDC188BEF2 /* Pods-LGPlayerModule_Example-acknowledgements.plist */,
+				3FA3B670BCD298491E8F3C6DCA600463 /* Pods-LGPlayerModule_Example-dummy.m */,
+				1E1D67AFAFD81DAA629B6BDF4B4202D4 /* Pods-LGPlayerModule_Example-frameworks.sh */,
+				DD3837D3A62A86A5F6E150157EF2748D /* Pods-LGPlayerModule_Example-Info.plist */,
+				76F45D802C0D649D84BC429C5250C600 /* Pods-LGPlayerModule_Example-umbrella.h */,
+				D7D53FFBF3BFA8501D8E67C7EB76E968 /* Pods-LGPlayerModule_Example.debug.xcconfig */,
+				AF7E8ADBDCD05E0DB6E227F3BE916C77 /* Pods-LGPlayerModule_Example.release.xcconfig */,
+			);
+			name = "Pods-LGPlayerModule_Example";
+			path = "Target Support Files/Pods-LGPlayerModule_Example";
+			sourceTree = "<group>";
+		};
+		4D5AC457A1BD7475748A6BCAC854D2BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF1722D4B1FADD6CC78168C77373D9D2 /* LGPlayerModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		606E8035C0F61A51CC7BCF457B90C0D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213E06CFD8A7EFCFD212F9C8591713A9 /* LGPlayerModule.framework */,
+				5FC3D6A379032EA877CCF9BA83E73EDA /* Pods_LGPlayerModule_Example.framework */,
+				80664A9E6523A2C31D3AA318DD4117B5 /* Pods_LGPlayerModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E28C5C033009E5B55ED8C52F1369B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33456F4190D539A236209258B868F5FD /* Pods-LGPlayerModule_Example */,
+				11FEAE299650CAF56B9F954AD7C114BA /* Pods-LGPlayerModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4D5AC457A1BD7475748A6BCAC854D2BC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				606E8035C0F61A51CC7BCF457B90C0D6 /* Products */,
+				B2E28C5C033009E5B55ED8C52F1369B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D941D891F3E2683A1B071CE1B551C208 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				801A787D8B172A3ABA775D666256A3CB /* LGPlayerModule.modulemap */,
+				4F69810685D709DE8D3BC453B2A64AE3 /* LGPlayerModule-dummy.m */,
+				246365417C127E5D06516E0A80570167 /* LGPlayerModule-Info.plist */,
+				D856669EA5C80B16EF0367F6D65E6030 /* LGPlayerModule-prefix.pch */,
+				EC513037DE8DAAB00B64E7D985E82BDC /* LGPlayerModule-umbrella.h */,
+				6C74D981EC767707500188C7B03E727E /* LGPlayerModule.debug.xcconfig */,
+				EFBB7216580D4A51F744A19DD2AB497F /* LGPlayerModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGPlayerModule";
+			sourceTree = "<group>";
+		};
+		DF1722D4B1FADD6CC78168C77373D9D2 /* LGPlayerModule */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB82D009397C75DB2045903393ED25 /* LGPlayerCellsHeader.h */,
+				7ED0040AD65607EE4231D868E2DBCBFB /* LGPlayerCommentCell.h */,
+				12B75A14C947ECBA1E5A030E881C0B97 /* LGPlayerCommentCell.m */,
+				B4C2DDBF2EFD4C545FE6EF0444BACED8 /* LGPlayerControlView.h */,
+				6E132D6C71484C168FB5A36DF0BA814F /* LGPlayerControlView.m */,
+				710A9F9A41165A84426141BCB22F8017 /* LGPlayerControlView.xib */,
+				FF08D5EEF096E43145EB2A92289F9B95 /* LGPlayerDataSource.h */,
+				E6B6932147E024A0A7DDD525DFC98A34 /* LGPlayerDataSource.m */,
+				0211CD0E2C046B7C07F104438991DBD0 /* LGPlayerFollowCell.h */,
+				8A324D1F05E1DDC5D29035F93DFBFCF2 /* LGPlayerFollowCell.m */,
+				E63BE91FB7542C82612C96DA92C73F7A /* LGPlayerFollowCell.xib */,
+				4A84B7036323A3E14629D210271BFC84 /* LGPlayerResponse.h */,
+				0BBAB490F9B022A3A92C620FA48F56E4 /* LGPlayerResponse.m */,
+				FF975901A4E90A15552FC407324419AE /* LGPlayerSource.h */,
+				7ECC24F394FF45C3B2CF9B6A5DE2DA5D /* LGPlayerSource.m */,
+				F6F8688F606A2EF379B6D8F07AB15FF4 /* LGPlayerUtils.h */,
+				692FFA2A898E43F49CBAB50165C5946A /* LGPlayerUtils.m */,
+				271FD7BC2C8E774EACC0EF474C84F7C3 /* LGPlayerVideoEpisodesCell.h */,
+				41315DC9A3B325945D6AB21384A84702 /* LGPlayerVideoEpisodesCell.m */,
+				32AF3825C41ADA93C07DA1B2B6B74D37 /* LGPlayerVideoEpisodesCell.xib */,
+				B65DB1E0F8751A50FD3A1179ABF3ADE3 /* LGPlayerVideoInfoCell.h */,
+				5D24447CABBF6D7585D961226DA518E9 /* LGPlayerVideoInfoCell.m */,
+				F1AFEA4E613FB424E73228D35860F857 /* LGPlayerVideoInfoCell.xib */,
+				9C380D703AF814E563E0FA099D325B58 /* LGPlayerVideoInfoResponse.h */,
+				3ECF23C0D01D8857D53C5B1ADAA8B60D /* LGPlayerVideoInfoResponse.m */,
+				19F413ACF2029D4E7A958DAC53B2B744 /* LGPlayerVideoInfoSource.h */,
+				F16514EE991C40DB95A3D40868E7599A /* LGPlayerVideoInfoSource.m */,
+				4C401C1B66F72721D231B8E39EFEF3F5 /* LGPlayerVideoRelativesCell.h */,
+				6F5B3E3837E7EA994ADAE205FA47010E /* LGPlayerVideoRelativesCell.m */,
+				CF0CE5B616FF94DC19AC94599518E900 /* LGPlayerVideoRelativesCell.xib */,
+				5F20F921DA99FFAF522CABC6FB139F8F /* LGPlayerView.h */,
+				618DBF5B0EEDB09F790F92B8DCEFE22F /* LGPlayerView.m */,
+				BE963CDCF50B59A5C1ECAE1071EFC51B /* LGPlayerView+Cast.h */,
+				FE1CE4D658C4CB0C065B786A65E5C2C0 /* LGPlayerView+Cast.m */,
+				4A6B99E3659BBC46289BF0B40D56131B /* LGPlayerView+Gesture.h */,
+				68DEBFA72607E2E7D7667B697F58BBB7 /* LGPlayerView+Gesture.m */,
+				0EE2658B9357F05EAB4F01B28860D961 /* LGPlayerView+Rotation.h */,
+				0BCEEF9078761ABDEC93DF9E13014409 /* LGPlayerView+Rotation.m */,
+				018CD2ED91C45B015D6301E41CA67002 /* LGPlayerViewController.h */,
+				343DAA1479740BEDCFD70BB661BF0455 /* LGPlayerViewController.m */,
+				6BE6ECB5AA764835EDFF02115AF95EA5 /* LGPlayerViewProxy.h */,
+				C01AD0EA3D7B402E29C372AC2BD5A892 /* LGPlayerViewProxy.m */,
+				95FDE06759CE67F51AD710CE5CDDDC2A /* LGResponse.h */,
+				C7E4BEBA1B85A3FC296FE04F9CC3EA55 /* LGResponse.m */,
+				E511FB9685F7B35984FE67DD3A45A05D /* LGTableViewCell.h */,
+				B90F8C214A6BA9C6C0DEAF29FAC63E61 /* LGTableViewCell.m */,
+				308EBBCD425ABB2754D06CEC1B853618 /* LGTableViewProxy.h */,
+				6E69B2C6DDFA57086E9659405A120827 /* LGTableViewProxy.m */,
+				3491DFC0262CEA51F9D3C42B504C1053 /* Player_Video_Comment.json */,
+				99FDD5AE1980240825A4F165208AD1B6 /* Player_Video_Info.json */,
+				AE497A94231DB5DA44C02310112702CF /* Player_Video_Url.json */,
+				15AA6B18C00166323E7F6B5325C08403 /* Target_LGPlayerModule.h */,
+				C179F8C3524497479190EBDCFA8634CA /* Target_LGPlayerModule.m */,
+				B15034B3356823A20D3375CA813B8904 /* UIButton+Custom.h */,
+				4CCB0EBC87BAB4EF41F39051BA55D23C /* UIButton+Custom.m */,
+				278226D4BFCEBCB30C0C3BC327297E39 /* Pod */,
+				D941D891F3E2683A1B071CE1B551C208 /* Support Files */,
+			);
+			name = LGPlayerModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E563578257BA6F9FE84EE5EF57E900D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F9F20CA821E4F85C39EE5D34F3E63B /* Pods-LGPlayerModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93428BAF2F8AE56288EF596B462C083D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46561E3205E8735F9EC2D24C616B6516 /* Pods-LGPlayerModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C8BE8DDDD82EC0DCDE17A790C01224B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B66CA31F7A61F039485A1D98DA30339 /* LGPlayerCellsHeader.h in Headers */,
+				B2FDD8C601458B2D432E5D813E7E9086 /* LGPlayerCommentCell.h in Headers */,
+				E96679C9AA26824279CDA547F5BA70B1 /* LGPlayerControlView.h in Headers */,
+				1DB12B816879D8C6332B42066B7F10B3 /* LGPlayerDataSource.h in Headers */,
+				FC7D77AD5F01679D8EF0880A3B46F860 /* LGPlayerFollowCell.h in Headers */,
+				CCFAEA6D6A96E6010F2E99364E6C99C3 /* LGPlayerModule-umbrella.h in Headers */,
+				21167B89E77118F2051F5A3FAC86C9F8 /* LGPlayerResponse.h in Headers */,
+				9C1E4E85687B9675802AA38D1A6197C4 /* LGPlayerSource.h in Headers */,
+				1CD21EFC578F646962D7C47F298A5554 /* LGPlayerUtils.h in Headers */,
+				571C0E61F6664F2F9EA007E9B500F35B /* LGPlayerVideoEpisodesCell.h in Headers */,
+				D611F90213C7730A9249B3366AD05C1A /* LGPlayerVideoInfoCell.h in Headers */,
+				F564279FE02431851943B1FDBDC83105 /* LGPlayerVideoInfoResponse.h in Headers */,
+				FFB38E63CA210593C00CF6D2DF9047F8 /* LGPlayerVideoInfoSource.h in Headers */,
+				B458A332E60FB6A0338D2BEDB6F3444A /* LGPlayerVideoRelativesCell.h in Headers */,
+				260FBAAABEC0FE63EB19810920A0728A /* LGPlayerView+Cast.h in Headers */,
+				200684FD8383880E4E986636B764C707 /* LGPlayerView+Gesture.h in Headers */,
+				A26586479A781A5F7F697402B858BA72 /* LGPlayerView+Rotation.h in Headers */,
+				FDE8B19C0787A1270D97A36DB0C0B448 /* LGPlayerView.h in Headers */,
+				ACDA36C32B8F911EAD7573F47C1C6E67 /* LGPlayerViewController.h in Headers */,
+				2ABDD6889B2B651DD241263712225509 /* LGPlayerViewProxy.h in Headers */,
+				8FB66580E2968779338671E5A342D372 /* LGResponse.h in Headers */,
+				3E376B86AD34EE4460F4247F9AD86804 /* LGTableViewCell.h in Headers */,
+				1AF1F6D43AD1E43D3CF91D1240FD230D /* LGTableViewProxy.h in Headers */,
+				D3568228141FCB3324448FF29B57F08A /* Target_LGPlayerModule.h in Headers */,
+				A039DA65332DE0325552FCD39DE5A427 /* UIButton+Custom.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03F973F9CB9359862C3EB9E0DDDC1B40 /* LGPlayerModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480CF67E9976B197805D016D81188C19 /* Build configuration list for PBXNativeTarget "LGPlayerModule" */;
+			buildPhases = (
+				9C8BE8DDDD82EC0DCDE17A790C01224B /* Headers */,
+				DB2E9273944F3B8113D04756E339CB97 /* Sources */,
+				0C85060F2227D9847D5CC94A34E180F9 /* Frameworks */,
+				5D44A4FE64FD9E18EA4843B165116926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGPlayerModule;
+			productName = LGPlayerModule;
+			productReference = 213E06CFD8A7EFCFD212F9C8591713A9 /* LGPlayerModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AA44070665E7C418BD34635AF21C013 /* Pods-LGPlayerModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095F2E27E19CDA799D26A524BF6F4D25 /* Build configuration list for PBXNativeTarget "Pods-LGPlayerModule_Example" */;
+			buildPhases = (
+				93428BAF2F8AE56288EF596B462C083D /* Headers */,
+				357BA180C5461767E44943F9B3457CA3 /* Sources */,
+				9962CDE8492CAC819BD48429C94A5D8D /* Frameworks */,
+				26F944BFBBF5D2D457DE9E62AC382436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E33292C8EE0F0E444B156F9B9BC0869 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGPlayerModule_Example";
+			productName = "Pods-LGPlayerModule_Example";
+			productReference = 5FC3D6A379032EA877CCF9BA83E73EDA /* Pods_LGPlayerModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F0D7DE28D223E1F373ED99445CF81DC /* Pods-LGPlayerModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662BD9D30A0242DFC56D15E56F381B34 /* Build configuration list for PBXNativeTarget "Pods-LGPlayerModule_Tests" */;
+			buildPhases = (
+				7E563578257BA6F9FE84EE5EF57E900D /* Headers */,
+				DCF16546CF0D5C168E539DC45B85ABB0 /* Sources */,
+				531D53D46154FC02E6FB84ABD358BF9E /* Frameworks */,
+				8AD45F1257D9510A6E52C39D466C83DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223D3802C99AF8E63EBD17ED7797263C /* PBXTargetDependency */,
+			);
+			name = "Pods-LGPlayerModule_Tests";
+			productName = "Pods-LGPlayerModule_Tests";
+			productReference = 80664A9E6523A2C31D3AA318DD4117B5 /* Pods_LGPlayerModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 606E8035C0F61A51CC7BCF457B90C0D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F973F9CB9359862C3EB9E0DDDC1B40 /* LGPlayerModule */,
+				1AA44070665E7C418BD34635AF21C013 /* Pods-LGPlayerModule_Example */,
+				4F0D7DE28D223E1F373ED99445CF81DC /* Pods-LGPlayerModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F944BFBBF5D2D457DE9E62AC382436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D44A4FE64FD9E18EA4843B165116926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD45F1257D9510A6E52C39D466C83DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357BA180C5461767E44943F9B3457CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1BE9CAA731B09EBC188C4FEBD3033F /* Pods-LGPlayerModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2E9273944F3B8113D04756E339CB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF138DD2EE0C142F8F156D477CA9E73 /* LGPlayerCommentCell.m in Sources */,
+				D9BB310CB575F5F6032DAC11CAA34175 /* LGPlayerControlView.m in Sources */,
+				119E1B95108CC422CDF9616D31ABFC6C /* LGPlayerControlView.xib in Sources */,
+				B99369DF98FF0275B8BA82AC8B611D56 /* LGPlayerDataSource.m in Sources */,
+				50957804DE590ECB865BA446FFC1DA62 /* LGPlayerFollowCell.m in Sources */,
+				1FBB83F45C2B9F4B9AD002DF9BA231B3 /* LGPlayerFollowCell.xib in Sources */,
+				E4A666C0587E7F9C7B19CAB1D1602200 /* LGPlayerModule-dummy.m in Sources */,
+				3017B3D8B2F5C07AD86F0C25C165FCCC /* LGPlayerResponse.m in Sources */,
+				33CAB124F62A8BE0774E51D367BF8A60 /* LGPlayerSource.m in Sources */,
+				DEED25237E689B3F2C27E22AFF0441AF /* LGPlayerUtils.m in Sources */,
+				B393BE7823043206A28C2A7B4D69C370 /* LGPlayerVideoEpisodesCell.m in Sources */,
+				6757ACF12950C6BB89016C3F4BACBA91 /* LGPlayerVideoEpisodesCell.xib in Sources */,
+				45B7511E14C0D2505AC61900903EC8CA /* LGPlayerVideoInfoCell.m in Sources */,
+				CA528F9FDC5341F564F34818C3685B9D /* LGPlayerVideoInfoCell.xib in Sources */,
+				B21B2319938F0180302D30B46964358F /* LGPlayerVideoInfoResponse.m in Sources */,
+				C7AFA04BA4F1A711B8CADFFA309F9A5A /* LGPlayerVideoInfoSource.m in Sources */,
+				46F5856BF09457CCFE76ABAD1362D1C0 /* LGPlayerVideoRelativesCell.m in Sources */,
+				94C9D084697192AB847869D03450D14A /* LGPlayerVideoRelativesCell.xib in Sources */,
+				57A01AC4B03612ED12CFA19A9A49E36B /* LGPlayerView+Cast.m in Sources */,
+				5938ACB8FF4AA4E96AD8E896177E4644 /* LGPlayerView+Gesture.m in Sources */,
+				EC29658AEB314ABDBE20786C52C094F6 /* LGPlayerView+Rotation.m in Sources */,
+				52BA3B4B769D1679753ECDC1E9E65824 /* LGPlayerView.m in Sources */,
+				7313A31249E9613B135D48E563D7FA71 /* LGPlayerViewController.m in Sources */,
+				5E3EC4369FF024D7621517481045D797 /* LGPlayerViewProxy.m in Sources */,
+				7266DF9888151A5AD127F660F8DACAB1 /* LGResponse.m in Sources */,
+				EFA135459E4FC9654229C23BE9030707 /* LGTableViewCell.m in Sources */,
+				8245E21032502EB25C4FE9C4FA7E9A28 /* LGTableViewProxy.m in Sources */,
+				4BA11268D0FDCCFD05C5F05215BF8C2E /* Player_Video_Comment.json in Sources */,
+				C88CAE8065804C42465BA1E00DDB4389 /* Player_Video_Info.json in Sources */,
+				D8A43D94D55E05774F1EE4BEFA15E114 /* Player_Video_Url.json in Sources */,
+				AF77A2152679327FEDC4B98BDE501AF3 /* Target_LGPlayerModule.m in Sources */,
+				FF391F0C08090C1EA0906ED22BCA11A1 /* UIButton+Custom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF16546CF0D5C168E539DC45B85ABB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DDF737C5B861EAC0301DFDE1827B99 /* Pods-LGPlayerModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223D3802C99AF8E63EBD17ED7797263C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGPlayerModule_Example";
+			target = 1AA44070665E7C418BD34635AF21C013 /* Pods-LGPlayerModule_Example */;
+			targetProxy = E6DF8F43E5DBA92061D98B19FEBFD3D2 /* PBXContainerItemProxy */;
+		};
+		4E33292C8EE0F0E444B156F9B9BC0869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGPlayerModule;
+			target = 03F973F9CB9359862C3EB9E0DDDC1B40 /* LGPlayerModule */;
+			targetProxy = 347D73FD12BE9B1D0464A017A43D97FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030944A0AD941AF70370089A7AC037A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C74D981EC767707500188C7B03E727E /* LGPlayerModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGPlayerModule/LGPlayerModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGPlayerModule/LGPlayerModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGPlayerModule/LGPlayerModule.modulemap";
+				PRODUCT_MODULE_NAME = LGPlayerModule;
+				PRODUCT_NAME = LGPlayerModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B2DD80B82E208B5F3CDF5BD300619D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBB7216580D4A51F744A19DD2AB497F /* LGPlayerModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGPlayerModule/LGPlayerModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGPlayerModule/LGPlayerModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGPlayerModule/LGPlayerModule.modulemap";
+				PRODUCT_MODULE_NAME = LGPlayerModule;
+				PRODUCT_NAME = LGPlayerModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4833E9BD8D2475DE55FC109C5ED4F4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755FD9DB884ECE3442696F932EC74552 /* Pods-LGPlayerModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGPlayerModule_Tests/Pods-LGPlayerModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGPlayerModule_Tests/Pods-LGPlayerModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		499997744D8FDE9577D494055E9643DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D53FFBF3BFA8501D8E67C7EB76E968 /* Pods-LGPlayerModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGPlayerModule_Example/Pods-LGPlayerModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGPlayerModule_Example/Pods-LGPlayerModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7C2C835D2FABBB7BD4A8004E60280DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7E8ADBDCD05E0DB6E227F3BE916C77 /* Pods-LGPlayerModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGPlayerModule_Example/Pods-LGPlayerModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGPlayerModule_Example/Pods-LGPlayerModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3E99F764967303DFE300895B68BB708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2AC6AEFBBF4A3A8CFC4F4645598BCC /* Pods-LGPlayerModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LGPlayerModule_Tests/Pods-LGPlayerModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGPlayerModule_Tests/Pods-LGPlayerModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095F2E27E19CDA799D26A524BF6F4D25 /* Build configuration list for PBXNativeTarget "Pods-LGPlayerModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499997744D8FDE9577D494055E9643DC /* Debug */,
+				7C2C835D2FABBB7BD4A8004E60280DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480CF67E9976B197805D016D81188C19 /* Build configuration list for PBXNativeTarget "LGPlayerModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030944A0AD941AF70370089A7AC037A6 /* Debug */,
+				2B2DD80B82E208B5F3CDF5BD300619D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662BD9D30A0242DFC56D15E56F381B34 /* Build configuration list for PBXNativeTarget "Pods-LGPlayerModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4833E9BD8D2475DE55FC109C5ED4F4A0 /* Debug */,
+				F3E99F764967303DFE300895B68BB708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

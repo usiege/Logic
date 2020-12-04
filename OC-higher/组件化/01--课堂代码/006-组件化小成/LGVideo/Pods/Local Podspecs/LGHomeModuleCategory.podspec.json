@@ -1,0 +1,27 @@
+{
+  "name": "LGHomeModuleCategory",
+  "version": "0.1.0",
+  "summary": "A short description of LGHomeModuleCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LGCooci/LGHomeModuleCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LGCooci": "cooci_tz@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LGCooci/LGHomeModuleCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGHomeModuleCategory/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

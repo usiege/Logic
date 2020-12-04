@@ -1,0 +1,14 @@
+if (repo = ENV['COCOAPODS_SPEC_REPO'])
+    source "#{repo}"
+end
+
+workspace 'Examples.xcworkspace'
+project 'TestInclusions.xcodeproj'
+platform :ios, '6.0'
+
+abstract_target 'TestInclusionsPods' do
+    pod 'SwrveConversationSDK', '~> 4.3.0'
+
+    target 'TestInclusions'
+    target 'TestInclusionsTests'
+end

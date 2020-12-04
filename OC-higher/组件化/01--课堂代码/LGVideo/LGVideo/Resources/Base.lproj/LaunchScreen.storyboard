@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3h1-2F-Jty"/>
+                        <viewControllerLayoutGuide type="bottom" id="NAV-9k-oxZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LGVideo_logo" translatesAutoresizingMaskIntoConstraints="NO" id="bOM-Bo-CFK">
+                                <rect key="frame" x="97.5" y="163.5" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="5ui-aW-JcF"/>
+                                    <constraint firstAttribute="width" constant="180" id="hzE-fi-eQs"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2018 LOGIC EDU. All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOL-hW-uo9">
+                                <rect key="frame" x="46.5" y="644.5" width="282" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="0.80541926622390747" blue="0.002127740066498518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.054269813001155853" green="0.069860450923442841" blue="0.10721267014741898" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bOM-Bo-CFK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GGW-Ei-lMe"/>
+                            <constraint firstItem="XOL-hW-uo9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SGD-4L-zMH"/>
+                            <constraint firstItem="NAV-9k-oxZ" firstAttribute="top" secondItem="XOL-hW-uo9" secondAttribute="bottom" constant="8" id="j9q-bs-fh7"/>
+                            <constraint firstItem="bOM-Bo-CFK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-80" id="xUa-kd-2Dw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46" y="379"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LGVideo_logo" width="16" height="16"/>
+    </resources>
+</document>

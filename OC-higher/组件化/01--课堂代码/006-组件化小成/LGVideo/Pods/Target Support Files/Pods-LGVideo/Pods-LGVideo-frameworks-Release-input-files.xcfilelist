@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-LGVideo/Pods-LGVideo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework
+${BUILT_PRODUCTS_DIR}/LGCommonUIModule/LGCommonUIModule.framework
+${BUILT_PRODUCTS_DIR}/LGDLNAModule/LGDLNAModule.framework
+${BUILT_PRODUCTS_DIR}/LGHomeModule/LGHomeModule.framework
+${BUILT_PRODUCTS_DIR}/LGHomeModuleCategory/LGHomeModuleCategory.framework
+${BUILT_PRODUCTS_DIR}/LGMacroAndCategoryModule/LGMacroAndCategoryModule.framework
+${BUILT_PRODUCTS_DIR}/LGPlayerModule/LGPlayerModule.framework
+${BUILT_PRODUCTS_DIR}/LGPlayerModuleCategory/LGPlayerModuleCategory.framework
+${BUILT_PRODUCTS_DIR}/MRDLNA/MRDLNA.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/TYCyclePagerView/TYCyclePagerView.framework

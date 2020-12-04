@@ -1,0 +1,133 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.4)
+  - CTMediator (25)
+  - JSONModel (1.8.0)
+  - LGCommonUIModule (0.1.0):
+    - AFNetworking
+    - LGCommonUIModule/LGErrorView (= 0.1.0)
+    - LGCommonUIModule/LGLoading (= 0.1.0)
+    - LGCommonUIModule/LGSegmentedControl (= 0.1.0)
+    - LGCommonUIModule/LGShare (= 0.1.0)
+    - LGCommonUIModule/LGToast (= 0.1.0)
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGErrorView (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGLoading (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGSegmentedControl (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGShare (0.1.0):
+    - AFNetworking
+    - LGCommonUIModule/LGToast
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGCommonUIModule/LGToast (0.1.0):
+    - AFNetworking
+    - LGMacroAndCategoryModule
+    - Masonry
+  - LGDLNAModule (0.1.0):
+    - LGMacroAndCategoryModule
+    - MRDLNA
+  - LGHomeModule (0.1.0):
+    - AFNetworking
+    - CTMediator
+    - JSONModel
+    - LGCommonUIModule
+    - LGMacroAndCategoryModule
+    - LGPlayerModuleCategory
+    - Masonry
+    - TYCyclePagerView
+  - LGHomeModuleCategory (0.1.0):
+    - CTMediator
+  - LGMacroAndCategoryModule (0.1.0)
+  - LGPlayerModule (0.1.0):
+    - JSONModel
+    - LGCommonUIModule
+    - LGDLNAModule
+    - Masonry
+  - LGPlayerModuleCategory (0.1.0):
+    - CTMediator
+  - Masonry (1.1.0)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+  - TYCyclePagerView (1.2.0)
+
+DEPENDENCIES:
+  - LGCommonUIModule (from `../LGCommonUIModule`)
+  - LGDLNAModule (from `../LGDLNAModule`)
+  - LGHomeModule (from `../LGHomeModule`)
+  - LGHomeModuleCategory (from `../LGHomeModuleCategory`)
+  - LGMacroAndCategoryModule (from `../LGMacroAndCategoryModule`)
+  - LGPlayerModule (from `../LGPlayerModule`)
+  - LGPlayerModuleCategory (from `../LGPlayerModuleCategory`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - CTMediator
+    - JSONModel
+    - Masonry
+    - MRDLNA
+    - TYCyclePagerView
+
+EXTERNAL SOURCES:
+  LGCommonUIModule:
+    :path: "../LGCommonUIModule"
+  LGDLNAModule:
+    :path: "../LGDLNAModule"
+  LGHomeModule:
+    :path: "../LGHomeModule"
+  LGHomeModuleCategory:
+    :path: "../LGHomeModuleCategory"
+  LGMacroAndCategoryModule:
+    :path: "../LGMacroAndCategoryModule"
+  LGPlayerModule:
+    :path: "../LGPlayerModule"
+  LGPlayerModuleCategory:
+    :path: "../LGPlayerModuleCategory"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LGCommonUIModule: 791ee64996a9a31a9bc0942484490768c0047fb3
+  LGDLNAModule: 01a9cfcb713f7b22a37caaf689897ba3ba14aa23
+  LGHomeModule: 4afbeaeafc8e231649cb64e250b7279febe432fe
+  LGHomeModuleCategory: 2e6e2a7496b069f8c68fbdf86a11fc11bba58903
+  LGMacroAndCategoryModule: bda298343ff55fa8af6f1aa1133dffb0e35ea3b7
+  LGPlayerModule: 4a797884c8d33f9e2e7f3e55497c90747c17d6be
+  LGPlayerModuleCategory: e0991ba55ecd589339f61e3e58aa1f123e51eaa5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+
+PODFILE CHECKSUM: 19b67e40056e075f0ac9aea89aa5d8e7caa778c9
+
+COCOAPODS: 1.10.0

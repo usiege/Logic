@@ -1,0 +1,18 @@
+if (repo = ENV['COCOAPODS_SPEC_REPO'])
+    source "#{repo}"
+end
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+workspace 'Examples'
+
+target 'InstallMultipleTestSpecs' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for InstallMultipleTestSpecs
+  pod 'TestLib', :path => 'TestLib', :testspecs => %w[UnitTests1 UnitTests2]
+  pod 'HostedTestLib', :path => 'HostedTestLib', :testspecs => %w[UnitTests3 UnitTests4]
+  pod 'ByConfig', path: 'ByConfig', appspecs: %w[App]
+end
