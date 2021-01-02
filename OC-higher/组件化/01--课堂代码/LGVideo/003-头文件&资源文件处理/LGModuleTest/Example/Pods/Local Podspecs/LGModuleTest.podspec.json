@@ -1,0 +1,27 @@
+{
+  "name": "LGModuleTest",
+  "version": "0.1.0",
+  "summary": "A short description of LGModuleTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cooci_tz@163.com/LGModuleTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cooci_tz@163.com": "cooci_tz@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cooci_tz@163.com/LGModuleTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LGModuleTest/Classes/**/*",
+  "resource_bundles": {
+    "LGModuleTest": [
+      "LGModuleTest/Assets/*"
+    ]
+  }
+}

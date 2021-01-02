@@ -1,0 +1,16 @@
+PODS:
+  - LGModuleTest (0.1.0)
+
+DEPENDENCIES:
+  - LGModuleTest (from `../`)
+
+EXTERNAL SOURCES:
+  LGModuleTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LGModuleTest: 01588dab1be4908d9fd908d9b4453fe23a14f28f
+
+PODFILE CHECKSUM: 15713c006ecd567018561eac2f084c6fb73b8b0a
+
+COCOAPODS: 1.9.0.beta.2
